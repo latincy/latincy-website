@@ -1,0 +1,4320 @@
+{
+ "harvested": "2026-11-13T15:02:06+00:00",
+ "repos": {
+  "diyclassics/la_core_cltk_md": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2023-05-04T22:21:07.000Z",
+     "id": "ed03c0f6b781",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-04-17T15:06:54.000Z",
+     "id": "db63fc743374",
+     "title": "Upload 41 files"
+    },
+    {
+     "date": "2023-04-17T15:05:44.000Z",
+     "id": "beb2e09b6e3f",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-04-15T14:30:48.000Z",
+     "id": "c56bed202b6d",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-04-15T14:30:28.000Z",
+     "id": "4bf6fe7b7c40",
+     "title": "Upload 41 files"
+    },
+    {
+     "date": "2023-04-07T14:41:11.000Z",
+     "id": "b415341734e6",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-04-07T14:35:35.000Z",
+     "id": "91ddf1c6cc6c",
+     "title": "Upload 41 files"
+    },
+    {
+     "date": "2023-04-06T22:33:22.000Z",
+     "id": "dc6ecef4b9fb",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2023-04-06T22:33:22.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "la_core_cltk_md-0.4.0/MANIFEST.in",
+    "la_core_cltk_md-0.4.0/README.md",
+    "la_core_cltk_md-0.4.0/dist/la_core_cltk_md-0.4.0.tar.gz",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md.egg-info/PKG-INFO",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md.egg-info/SOURCES.txt",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md.egg-info/dependency_links.txt",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md.egg-info/entry_points.txt",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md.egg-info/not-zip-safe",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md.egg-info/requires.txt",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md.egg-info/top_level.txt",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/__init__.py",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/functions.py",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/README.md",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/config.cfg",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/meta.json",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/morphologizer/cfg",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/morphologizer/model",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/ner/cfg",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/ner/model",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/ner/moves",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/parser/cfg",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/parser/model",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/parser/moves",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/senter/cfg",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/senter/model",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/tagger/cfg",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/tagger/model",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/tok2vec/cfg",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/tok2vec/model",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/tokenizer",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/trainable_lemmatizer/cfg",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/trainable_lemmatizer/model",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/trainable_lemmatizer/trees",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/vocab/key2row",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/vocab/lookups.bin",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/vocab/strings.json",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/vocab/vectors",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/la_core_cltk_md-0.4.0/vocab/vectors.cfg",
+    "la_core_cltk_md-0.4.0/la_core_cltk_md/meta.json",
+    "la_core_cltk_md-0.4.0/meta.json",
+    "la_core_cltk_md-0.4.0/setup.py",
+    "la_core_cltk_md-0.4.1/MANIFEST.in",
+    "la_core_cltk_md-0.4.1/README.md",
+    "la_core_cltk_md-0.4.1/dist/la_core_cltk_md-0.4.1.tar.gz",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md.egg-info/PKG-INFO",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md.egg-info/SOURCES.txt",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md.egg-info/dependency_links.txt",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md.egg-info/entry_points.txt",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md.egg-info/not-zip-safe",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md.egg-info/requires.txt",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md.egg-info/top_level.txt",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/__init__.py",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/functions.py",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/README.md",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/config.cfg",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/meta.json",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/morphologizer/cfg",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/morphologizer/model",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/ner/cfg",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/ner/model",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/ner/moves",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/parser/cfg",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/parser/model",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/parser/moves",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/senter/cfg",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/senter/model",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/tagger/cfg",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/tagger/model",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/tok2vec/cfg",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/tok2vec/model",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/tokenizer",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/trainable_lemmatizer/cfg",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/trainable_lemmatizer/model",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/trainable_lemmatizer/trees",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/vocab/key2row",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/vocab/lookups.bin",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/vocab/strings.json",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/vocab/vectors",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/la_core_cltk_md-0.4.1/vocab/vectors.cfg",
+    "la_core_cltk_md-0.4.1/la_core_cltk_md/meta.json",
+    "la_core_cltk_md-0.4.1/meta.json",
+    "la_core_cltk_md-0.4.1/setup.py",
+    "la_core_cltk_md-3.5.0/MANIFEST.in",
+    "la_core_cltk_md-3.5.0/README.md",
+    "la_core_cltk_md-3.5.0/dist/la_core_cltk_md-3.5.0.tar.gz",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md.egg-info/PKG-INFO",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md.egg-info/SOURCES.txt",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md.egg-info/dependency_links.txt",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md.egg-info/entry_points.txt",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md.egg-info/not-zip-safe",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md.egg-info/requires.txt",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md.egg-info/top_level.txt",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/__init__.py",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/functions.py",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/README.md",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/config.cfg",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/meta.json",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/morphologizer/cfg",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/morphologizer/model",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/ner/cfg",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/ner/model",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/ner/moves",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/parser/cfg",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/parser/model",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/parser/moves",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/senter/cfg",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/senter/model",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/tagger/cfg",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/tagger/model",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/tok2vec/cfg",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/tok2vec/model",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/tokenizer",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/trainable_lemmatizer/cfg",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/trainable_lemmatizer/model",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/trainable_lemmatizer/trees",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/vocab/key2row",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/vocab/lookups.bin",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/vocab/strings.json",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/vocab/vectors",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/la_core_cltk_md-3.5.0/vocab/vectors.cfg",
+    "la_core_cltk_md-3.5.0/la_core_cltk_md/meta.json",
+    "la_core_cltk_md-3.5.0/meta.json",
+    "la_core_cltk_md-3.5.0/setup.py"
+   ],
+   "lastModified": "2023-05-04T22:21:07.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "diyclassics/la_core_web_md": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2023-05-04T22:22:54.000Z",
+     "id": "d94085a0191f",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-05-04T20:33:30.000Z",
+     "id": "e8c6ad4f9b92",
+     "title": "Update spaCy pipeline"
+    },
+    {
+     "date": "2023-05-04T20:33:20.000Z",
+     "id": "2fa9a5d407a4",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2023-05-04T20:33:20.000Z",
+   "eval": {
+    "_file": "meta.json",
+    "dep_las": 0.7586206897,
+    "dep_las_per_type": {
+     "acl": {
+      "f": 0.5786873677,
+      "p": 0.5828002843,
+      "r": 0.5746320953
+     },
+     "acl:relcl": {
+      "f": 0.6201804758,
+      "p": 0.6423109601,
+      "r": 0.5995241872
+     },
+     "advcl": {
+      "f": 0.5791600773,
+      "p": 0.5428194993,
+      "r": 0.6207156309
+     },
+     "advcl:abs": {
+      "f": 0.0434782609,
+      "p": 0.1666666667,
+      "r": 0.025
+     },
+     "advcl:cmp": {
+      "f": 0.0442477876,
+      "p": 0.0746268657,
+      "r": 0.0314465409
+     },
+     "advcl:pred": {
+      "f": 0.012195122,
+      "p": 0.0909090909,
+      "r": 0.0065359477
+     },
+     "advcl:relcl": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "advmod": {
+      "f": 0.7156749629,
+      "p": 0.704412719,
+      "r": 0.7273031826
+     },
+     "advmod:emph": {
+      "f": 0.6117404737,
+      "p": 0.6346153846,
+      "r": 0.5904572565
+     },
+     "advmod:lmod": {
+      "f": 0.7987012987,
+      "p": 0.9044117647,
+      "r": 0.7151162791
+     },
+     "advmod:neg": {
+      "f": 0.8407932011,
+      "p": 0.856812933,
+      "r": 0.8253615128
+     },
+     "advmod:tmod": {
+      "f": 0.5858585859,
+      "p": 0.6516853933,
+      "r": 0.5321100917
+     },
+     "amod": {
+      "f": 0.7926042212,
+      "p": 0.7864312911,
+      "r": 0.7988748242
+     },
+     "appos": {
+      "f": 0.7937888199,
+      "p": 0.8298701299,
+      "r": 0.7607142857
+     },
+     "aux": {
+      "f": 0.452173913,
+      "p": 0.4406779661,
+      "r": 0.4642857143
+     },
+     "aux:pass": {
+      "f": 0.840751731,
+      "p": 0.8064516129,
+      "r": 0.8780991736
+     },
+     "case": {
+      "f": 0.9566139292,
+      "p": 0.9508754864,
+      "r": 0.9624220545
+     },
+     "cc": {
+      "f": 0.7784848121,
+      "p": 0.7655253837,
+      "r": 0.7918905716
+     },
+     "ccomp": {
+      "f": 0.4352112676,
+      "p": 0.4912559618,
+      "r": 0.3906447535
+     },
+     "ccomp:relcl": {
+      "f": 0.3146067416,
+      "p": 0.5384615385,
+      "r": 0.2222222222
+     },
+     "ccomp:reported": {
+      "f": 0.1463414634,
+      "p": 0.1666666667,
+      "r": 0.1304347826
+     },
+     "compound": {
+      "f": 0.7058823529,
+      "p": 0.6666666667,
+      "r": 0.75
+     },
+     "conj": {
+      "f": 0.6526501322,
+      "p": 0.6533904714,
+      "r": 0.6519114688
+     },
+     "conj:expl": {
+      "f": 0.2537313433,
+      "p": 0.4047619048,
+      "r": 0.1847826087
+     },
+     "cop": {
+      "f": 0.7611111111,
+      "p": 0.7248677249,
+      "r": 0.8011695906
+     },
+     "cop:outer": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "csubj": {
+      "f": 0.6061705989,
+      "p": 0.5728987993,
+      "r": 0.6435452794
+     },
+     "csubj:cleft": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "csubj:pass": {
+      "f": 0.5134328358,
+      "p": 0.5512820513,
+      "r": 0.4804469274
+     },
+     "csubj:relcl": {
+      "f": 0.3473053892,
+      "p": 0.6041666667,
+      "r": 0.243697479
+     },
+     "csubj:reported": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "dep": {
+      "f": 0.0630630631,
+      "p": 0.0338164251,
+      "r": 0.4666666667
+     },
+     "det": {
+      "f": 0.8905809951,
+      "p": 0.8864202658,
+      "r": 0.8947809684
+     },
+     "det:numgov": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "discourse": {
+      "f": 0.7910177472,
+      "p": 0.7947598253,
+      "r": 0.7873107426
+     },
+     "dislocated": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "dislocated:advcl": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "dislocated:csubj": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "dislocated:nsubj": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "dislocated:obj": {
+      "f": 0.7052023121,
+      "p": 0.8133333333,
+      "r": 0.6224489796
+     },
+     "dislocated:obl": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "expl:pass": {
+      "f": 0.6818181818,
+      "p": 0.5769230769,
+      "r": 0.8333333333
+     },
+     "fixed": {
+      "f": 0.8640192539,
+      "p": 0.9134860051,
+      "r": 0.8196347032
+     },
+     "flat": {
+      "f": 0.7249466951,
+      "p": 0.7359307359,
+      "r": 0.7142857143
+     },
+     "flat:foreign": {
+      "f": 0.6666666667,
+      "p": 0.5,
+      "r": 1.0
+     },
+     "flat:name": {
+      "f": 0.7586206897,
+      "p": 0.7586206897,
+      "r": 0.7586206897
+     },
+     "iobj": {
+      "f": 0.5989974937,
+      "p": 0.6407506702,
+      "r": 0.5623529412
+     },
+     "mark": {
+      "f": 0.7988478157,
+      "p": 0.8080284882,
+      "r": 0.7898734177
+     },
+     "nmod": {
+      "f": 0.7701052122,
+      "p": 0.7916459473,
+      "r": 0.7497056746
+     },
+     "nsubj": {
+      "f": 0.7390639339,
+      "p": 0.7594300084,
+      "r": 0.7197616683
+     },
+     "nsubj:outer": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "nsubj:pass": {
+      "f": 0.6991426345,
+      "p": 0.6644444444,
+      "r": 0.7376644737
+     },
+     "nummod": {
+      "f": 0.8635634029,
+      "p": 0.8936877076,
+      "r": 0.8354037267
+     },
+     "obj": {
+      "f": 0.7527366388,
+      "p": 0.710422364,
+      "r": 0.8004108182
+     },
+     "obl": {
+      "f": 0.7312335482,
+      "p": 0.7077842207,
+      "r": 0.7562898986
+     },
+     "obl:agent": {
+      "f": 0.2934782609,
+      "p": 0.3292682927,
+      "r": 0.2647058824
+     },
+     "obl:arg": {
+      "f": 0.756027001,
+      "p": 0.7741935484,
+      "r": 0.7386934673
+     },
+     "obl:cmp": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "obl:lmod": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "obl:tmod": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "orphan": {
+      "f": 0.3215686275,
+      "p": 0.4939759036,
+      "r": 0.238372093
+     },
+     "parataxis": {
+      "f": 0.1612903226,
+      "p": 0.3571428571,
+      "r": 0.1041666667
+     },
+     "parataxis:reporting": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "reparandum": {
+      "f": 0.1538461538,
+      "p": 0.5,
+      "r": 0.0909090909
+     },
+     "root": {
+      "f": 0.8593835094,
+      "p": 0.8537113179,
+      "r": 0.8651315789
+     },
+     "vocative": {
+      "f": 0.4844720497,
+      "p": 0.5652173913,
+      "r": 0.4239130435
+     },
+     "xcomp": {
+      "f": 0.7329721362,
+      "p": 0.7539808917,
+      "r": 0.7131024096
+     },
+     "xcomp:relcl": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     }
+    },
+    "dep_uas": 0.8194251424,
+    "ents_f": 0.8561611744,
+    "ents_p": 0.8237415477,
+    "ents_per_type": {
+     "LOC": {
+      "f": 0.7116968699,
+      "p": 0.6666666667,
+      "r": 0.7632508834
+     },
+     "NORP": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "PERSON": {
+      "f": 0.8995811824,
+      "p": 0.8617279343,
+      "r": 0.9409127954
+     }
+    },
+    "ents_r": 0.8912371972,
+    "lemma_acc": 0.9417491321,
+    "morph_acc": 0.9174960388,
+    "morph_per_feat": {
+     "Case": {
+      "f": 0.9166655439,
+      "p": 0.919975119,
+      "r": 0.9133796955
+     },
+     "Gender": {
+      "f": 0.9331216294,
+      "p": 0.9347080922,
+      "r": 0.9315405428
+     },
+     "Mood": {
+      "f": 0.9485772804,
+      "p": 0.9504544122,
+      "r": 0.9467075485
+     },
+     "Number": {
+      "f": 0.9719247666,
+      "p": 0.9751825153,
+      "r": 0.9686887115
+     },
+     "Person": {
+      "f": 0.9795141937,
+      "p": 0.9812371738,
+      "r": 0.9777972539
+     },
+     "Tense": {
+      "f": 0.9104506232,
+      "p": 0.9018614664,
+      "r": 0.9192049561
+     },
+     "Voice": {
+      "f": 0.9652820289,
+      "p": 0.9646071834,
+      "r": 0.9659578192
+     }
+    },
+    "morphologizer_loss": 19960.8055112585,
+    "ner_loss": 40.2271922897,
+    "ner_tok2vec_loss": 5.1912520368,
+    "parser_loss": 66096.8338510715,
+    "pos_acc": 0.9686820028,
+    "sents_f": 0.9329992374,
+    "sents_p": 0.927040485,
+    "sents_r": 0.9390350877,
+    "tag_acc": 0.9357431705,
+    "tagger_loss": 9278.4047295073,
+    "tok2vec_loss": 83027.1532959858,
+    "trainable_lemmatizer_loss": 7690.0509035662
+   },
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "config.cfg",
+    "functions.py",
+    "la_core_web_md-any-py3-none-any.whl",
+    "meta.json",
+    "morphologizer/cfg",
+    "morphologizer/model",
+    "ner/cfg",
+    "ner/model",
+    "ner/moves",
+    "parser/cfg",
+    "parser/model",
+    "parser/moves",
+    "senter/cfg",
+    "senter/model",
+    "tagger/cfg",
+    "tagger/model",
+    "tok2vec/cfg",
+    "tok2vec/model",
+    "tokenizer",
+    "trainable_lemmatizer/cfg",
+    "trainable_lemmatizer/model",
+    "trainable_lemmatizer/trees",
+    "vocab/key2row",
+    "vocab/lookups.bin",
+    "vocab/strings.json",
+    "vocab/vectors",
+    "vocab/vectors.cfg"
+   ],
+   "lastModified": "2023-05-04T22:22:54.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "diyclassics/la_dep_cltk_md": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2023-05-04T22:19:55.000Z",
+     "id": "f7da70512c44",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-03-16T14:53:53.000Z",
+     "id": "882718649518",
+     "title": "Upload 38 files"
+    },
+    {
+     "date": "2023-03-16T14:49:08.000Z",
+     "id": "6f3d5ae5f175",
+     "title": "Update repo"
+    },
+    {
+     "date": "2023-03-12T23:05:27.000Z",
+     "id": "17880cf0b715",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-03-12T23:03:22.000Z",
+     "id": "128a9e41faa7",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2023-03-12T23:03:21.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "la_dep_cltk_md-0.3.1/MANIFEST.in",
+    "la_dep_cltk_md-0.3.1/README.md",
+    "la_dep_cltk_md-0.3.1/dist/la_dep_cltk_md-0.3.1.tar.gz",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md.egg-info/PKG-INFO",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md.egg-info/SOURCES.txt",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md.egg-info/dependency_links.txt",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md.egg-info/entry_points.txt",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md.egg-info/not-zip-safe",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md.egg-info/requires.txt",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md.egg-info/top_level.txt",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/__init__.py",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/functions.py",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/README.md",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/config.cfg",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/meta.json",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/morphologizer/cfg",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/morphologizer/model",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/parser/cfg",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/parser/model",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/parser/moves",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/senter/cfg",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/senter/model",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/tagger/cfg",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/tagger/model",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/tok2vec/cfg",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/tok2vec/model",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/tokenizer",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/trainable_lemmatizer/cfg",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/trainable_lemmatizer/model",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/trainable_lemmatizer/trees",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/vocab/key2row",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/vocab/lookups.bin",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/vocab/strings.json",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/vocab/vectors",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/la_dep_cltk_md-0.3.1/vocab/vectors.cfg",
+    "la_dep_cltk_md-0.3.1/la_dep_cltk_md/meta.json",
+    "la_dep_cltk_md-0.3.1/meta.json",
+    "la_dep_cltk_md-0.3.1/setup.py"
+   ],
+   "lastModified": "2023-05-04T22:19:55.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "diyclassics/la_dep_cltk_sm": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2023-05-04T22:21:44.000Z",
+     "id": "4d3815f831f0",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-03-14T19:08:57.000Z",
+     "id": "c28a75014130",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-03-14T19:08:28.000Z",
+     "id": "9f1d8248ad0a",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-03-14T19:05:30.000Z",
+     "id": "95fb90bc63f3",
+     "title": "Upload 38 files"
+    },
+    {
+     "date": "2022-12-26T16:00:52.000Z",
+     "id": "effaac378df1",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2022-12-26T16:00:14.000Z",
+     "id": "0292d775bd19",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2022-12-23T21:19:37.000Z",
+     "id": "bbbcbdb674b8",
+     "title": "Upload 37 files"
+    },
+    {
+     "date": "2022-12-23T21:16:37.000Z",
+     "id": "003ae9c54aa9",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2022-12-23T21:16:37.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "la_dep_cltk_sm-0.2.0/MANIFEST.in",
+    "la_dep_cltk_sm-0.2.0/README.md",
+    "la_dep_cltk_sm-0.2.0/dist/la_dep_cltk_sm-0.2.0.tar.gz",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm.egg-info/PKG-INFO",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm.egg-info/SOURCES.txt",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm.egg-info/dependency_links.txt",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm.egg-info/entry_points.txt",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm.egg-info/not-zip-safe",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm.egg-info/requires.txt",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm.egg-info/top_level.txt",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/__init__.py",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/README.md",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/config.cfg",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/meta.json",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/morphologizer/cfg",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/morphologizer/model",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/parser/cfg",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/parser/model",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/parser/moves",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/senter/cfg",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/senter/model",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/tagger/cfg",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/tagger/model",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/tok2vec/cfg",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/tok2vec/model",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/tokenizer",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/trainable_lemmatizer/cfg",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/trainable_lemmatizer/model",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/trainable_lemmatizer/trees",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/vocab/key2row",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/vocab/lookups.bin",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/vocab/strings.json",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/vocab/vectors",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/la_dep_cltk_sm-0.2.0/vocab/vectors.cfg",
+    "la_dep_cltk_sm-0.2.0/la_dep_cltk_sm/meta.json",
+    "la_dep_cltk_sm-0.2.0/meta.json",
+    "la_dep_cltk_sm-0.2.0/setup.py",
+    "la_dep_cltk_sm-0.3.1/MANIFEST.in",
+    "la_dep_cltk_sm-0.3.1/README.md",
+    "la_dep_cltk_sm-0.3.1/dist/la_dep_cltk_sm-0.3.1.tar.gz",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm.egg-info/PKG-INFO",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm.egg-info/SOURCES.txt",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm.egg-info/dependency_links.txt",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm.egg-info/entry_points.txt",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm.egg-info/not-zip-safe",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm.egg-info/requires.txt",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm.egg-info/top_level.txt",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/__init__.py",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/functions.py",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/README.md",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/config.cfg",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/meta.json",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/morphologizer/cfg",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/morphologizer/model",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/parser/cfg",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/parser/model",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/parser/moves",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/senter/cfg",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/senter/model",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/tagger/cfg",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/tagger/model",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/tok2vec/cfg",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/tok2vec/model",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/tokenizer",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/trainable_lemmatizer/cfg",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/trainable_lemmatizer/model",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/trainable_lemmatizer/trees",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/vocab/key2row",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/vocab/lookups.bin",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/vocab/strings.json",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/vocab/vectors",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/la_dep_cltk_sm-0.3.1/vocab/vectors.cfg",
+    "la_dep_cltk_sm-0.3.1/la_dep_cltk_sm/meta.json",
+    "la_dep_cltk_sm-0.3.1/meta.json",
+    "la_dep_cltk_sm-0.3.1/setup.py"
+   ],
+   "lastModified": "2023-05-04T22:21:44.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "diyclassics/la_senter": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2023-03-15T17:18:39.000Z",
+     "id": "d0d8c0c04e93",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-03-15T17:03:48.000Z",
+     "id": "f17aa6a0a07f",
+     "title": "Upload 25 files"
+    },
+    {
+     "date": "2023-03-11T15:34:22.000Z",
+     "id": "374a3bf9ec9e",
+     "title": "Upload 24 files"
+    },
+    {
+     "date": "2023-03-11T15:30:38.000Z",
+     "id": "f5d964c57f99",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2022-12-29T23:05:27.000Z",
+     "id": "6df8ca42b3af",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2022-12-23T13:57:31.000Z",
+     "id": "06f519f3efc2",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2022-12-23T13:57:09.000Z",
+     "id": "88b04ad6b233",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2022-12-23T13:48:14.000Z",
+     "id": "4dd7cbc2ee21",
+     "title": "Upload 24 files"
+    },
+    {
+     "date": "2022-12-23T13:46:24.000Z",
+     "id": "4cf56600bc31",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2022-12-23T13:46:24.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "la_senter-0.1.0/MANIFEST.in",
+    "la_senter-0.1.0/README.md",
+    "la_senter-0.1.0/dist/la_senter-0.1.0.tar.gz",
+    "la_senter-0.1.0/la_senter.egg-info/PKG-INFO",
+    "la_senter-0.1.0/la_senter.egg-info/SOURCES.txt",
+    "la_senter-0.1.0/la_senter.egg-info/dependency_links.txt",
+    "la_senter-0.1.0/la_senter.egg-info/entry_points.txt",
+    "la_senter-0.1.0/la_senter.egg-info/not-zip-safe",
+    "la_senter-0.1.0/la_senter.egg-info/requires.txt",
+    "la_senter-0.1.0/la_senter.egg-info/top_level.txt",
+    "la_senter-0.1.0/la_senter/__init__.py",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/config.cfg",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/meta.json",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/senter/cfg",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/senter/model",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/tokenizer",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/vocab/key2row",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/vocab/lookups.bin",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/vocab/strings.json",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/vocab/vectors",
+    "la_senter-0.1.0/la_senter/la_senter-0.1.0/vocab/vectors.cfg",
+    "la_senter-0.1.0/la_senter/meta.json",
+    "la_senter-0.1.0/meta.json",
+    "la_senter-0.1.0/setup.py",
+    "la_senter-0.3.0/MANIFEST.in",
+    "la_senter-0.3.0/README.md",
+    "la_senter-0.3.0/dist/la_senter-0.3.0.tar.gz",
+    "la_senter-0.3.0/la_senter.egg-info/PKG-INFO",
+    "la_senter-0.3.0/la_senter.egg-info/SOURCES.txt",
+    "la_senter-0.3.0/la_senter.egg-info/dependency_links.txt",
+    "la_senter-0.3.0/la_senter.egg-info/entry_points.txt",
+    "la_senter-0.3.0/la_senter.egg-info/not-zip-safe",
+    "la_senter-0.3.0/la_senter.egg-info/requires.txt",
+    "la_senter-0.3.0/la_senter.egg-info/top_level.txt",
+    "la_senter-0.3.0/la_senter/__init__.py",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/config.cfg",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/meta.json",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/senter/cfg",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/senter/model",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/tokenizer",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/vocab/key2row",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/vocab/lookups.bin",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/vocab/strings.json",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/vocab/vectors",
+    "la_senter-0.3.0/la_senter/la_senter-0.3.0/vocab/vectors.cfg",
+    "la_senter-0.3.0/la_senter/meta.json",
+    "la_senter-0.3.0/meta.json",
+    "la_senter-0.3.0/setup.py",
+    "la_senter-0.3.1/MANIFEST.in",
+    "la_senter-0.3.1/README.md",
+    "la_senter-0.3.1/dist/la_senter-0.3.1.tar.gz",
+    "la_senter-0.3.1/la_senter.egg-info/PKG-INFO",
+    "la_senter-0.3.1/la_senter.egg-info/SOURCES.txt",
+    "la_senter-0.3.1/la_senter.egg-info/dependency_links.txt",
+    "la_senter-0.3.1/la_senter.egg-info/entry_points.txt",
+    "la_senter-0.3.1/la_senter.egg-info/not-zip-safe",
+    "la_senter-0.3.1/la_senter.egg-info/requires.txt",
+    "la_senter-0.3.1/la_senter.egg-info/top_level.txt",
+    "la_senter-0.3.1/la_senter/__init__.py",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/README.md",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/config.cfg",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/meta.json",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/senter/cfg",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/senter/model",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/tokenizer",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/vocab/key2row",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/vocab/lookups.bin",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/vocab/strings.json",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/vocab/vectors",
+    "la_senter-0.3.1/la_senter/la_senter-0.3.1/vocab/vectors.cfg",
+    "la_senter-0.3.1/la_senter/meta.json",
+    "la_senter-0.3.1/meta.json",
+    "la_senter-0.3.1/setup.py"
+   ],
+   "lastModified": "2023-03-15T17:18:39.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "diyclassics/la_vectors_floret_md": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2023-07-07T16:25:46.000Z",
+     "id": "9f8439a6330c",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2023-07-07T16:25:46.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes"
+   ],
+   "lastModified": "2023-07-07T16:25:46.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "latincy/grc_dep_web_lg": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-08-24T20:40:27.000Z",
+     "id": "6f01682c4de7",
+     "title": "Remove mis-named duplicate wheel (grc_dep_web_lg-any-...)"
+    },
+    {
+     "date": "2026-08-17T15:51:08.000Z",
+     "id": "cd4343713a1a",
+     "title": "Remove stale package_functions.py (3.8.2-era; lacks grc_core_tokenizer)"
+    },
+    {
+     "date": "2026-08-17T15:48:44.000Z",
+     "id": "5bbdeb7e861b",
+     "title": "Upload grc_dep_web_lg-any-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:48:26.000Z",
+     "id": "cd75574b6125",
+     "title": "Upload functions.py with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:48:25.000Z",
+     "id": "54559d40c97b",
+     "title": "Upload eval.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:42.000Z",
+     "id": "db29463f4179",
+     "title": "Upload vocab/strings.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:41.000Z",
+     "id": "79c88429fda0",
+     "title": "Upload vocab/lookups.bin with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:35.000Z",
+     "id": "a59d8e4b2d4b",
+     "title": "Upload attribute_ruler/patterns with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:35.000Z",
+     "id": "0cc0f860cb00",
+     "title": "Upload tokenizer with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:34.000Z",
+     "id": "2fe2c6fa6cc2",
+     "title": "Upload config.cfg with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:44:24.000Z",
+     "id": "56403ed2c91b",
+     "title": "Upload CHANGELOG.md with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:44:02.000Z",
+     "id": "4a0be2072ac8",
+     "title": "Upload meta.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:43:17.000Z",
+     "id": "121c30a2d821",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:34:12.000Z",
+     "id": "823aa442939c",
+     "title": "Upload grc_dep_web_lg-3.8.4-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-08-04T15:34:56.000Z",
+     "id": "edd74b756734",
+     "title": "3.8.3 hotfix: declare click as a dependency (clean-env spacy.load() was failing with ModuleNotFoundError)"
+    },
+    {
+     "date": "2026-08-04T15:20:55.000Z",
+     "id": "1e1beb823870",
+     "title": "3.8.3: fix elided lemma lookup (lookup-table-only patch, weights unchanged)"
+    },
+    {
+     "date": "2026-07-11T15:23:24.000Z",
+     "id": "04e628be3e70",
+     "title": "Add 3.8.2 changelog"
+    },
+    {
+     "date": "2026-07-11T15:23:22.000Z",
+     "id": "b6d660e19280",
+     "title": "Add pinnable 3.8.2 wheel"
+    },
+    {
+     "date": "2026-07-11T15:23:08.000Z",
+     "id": "5a169dd8d910",
+     "title": "3.8.2: keep crasis whole (tokenizer-only patch)"
+    },
+    {
+     "date": "2026-03-01T02:45:26.000Z",
+     "id": "aaef90259329",
+     "title": "Update model card for v3.8.1"
+    },
+    {
+     "date": "2026-03-01T02:45:26.000Z",
+     "id": "dcb4f6a44dca",
+     "title": "Add grc_dep_web_lg v3.8.1 (XPOS harmonized)"
+    },
+    {
+     "date": "2026-02-27T14:23:38.000Z",
+     "id": "64c95179cefa",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:23:38.000Z",
+     "id": "e7202ae11b67",
+     "title": "Upload grc_dep_web_lg-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:14:36.000Z",
+     "id": "e0cc2904d7e2",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:14:36.000Z",
+     "id": "7fca022e4c9e",
+     "title": "Upload grc_dep_web_lg-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:01:52.000Z",
+     "id": "b1005c6b2979",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:01:51.000Z",
+     "id": "ea4d0dda45e5",
+     "title": "Upload grc_dep_web_lg-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:01:43.000Z",
+     "id": "c09361866501",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-02-27T14:01:43.000Z",
+   "eval": {
+    "_file": "eval.json",
+    "dep_las": 0.6732646718264367,
+    "dep_las_per_type": {
+     "acl": {
+      "f": 0.2600276625172891,
+      "p": 0.24102564102564103,
+      "r": 0.2822822822822823
+     },
+     "acl:relcl": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "advcl": {
+      "f": 0.6052834060015388,
+      "p": 0.5956587582029278,
+      "r": 0.6152241918665277
+     },
+     "advmod": {
+      "f": 0.5634920634920635,
+      "p": 0.6028739386022207,
+      "r": 0.5289398280802292
+     },
+     "amod": {
+      "f": 0.42567567567567566,
+      "p": 0.4587378640776699,
+      "r": 0.39705882352941174
+     },
+     "appos": {
+      "f": 0.4079147640791476,
+      "p": 0.4336569579288026,
+      "r": 0.3850574712643678
+     },
+     "aux": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "case": {
+      "f": 0.911290322580645,
+      "p": 0.9122098890010091,
+      "r": 0.9103726082578046
+     },
+     "cc": {
+      "f": 0.6707423580786026,
+      "p": 0.6462470548636823,
+      "r": 0.6971677559912854
+     },
+     "ccomp": {
+      "f": 0.5270816491511721,
+      "p": 0.5451505016722408,
+      "r": 0.5101721439749609
+     },
+     "conj": {
+      "f": 0.5435343816005632,
+      "p": 0.5775561097256858,
+      "r": 0.5132978723404256
+     },
+     "cop": {
+      "f": 0.6576217079010376,
+      "p": 0.6518987341772152,
+      "r": 0.6634460547504025
+     },
+     "csubj": {
+      "f": 0.33027522935779813,
+      "p": 0.34615384615384615,
+      "r": 0.3157894736842105
+     },
+     "dep": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "det": {
+      "f": 0.8495750474461589,
+      "p": 0.8503468780971258,
+      "r": 0.8488046166529266
+     },
+     "discourse": {
+      "f": 0.5769854132901134,
+      "p": 0.5179437439379243,
+      "r": 0.651219512195122
+     },
+     "dislocated": {
+      "f": 0.0655737704918033,
+      "p": 0.2222222222222222,
+      "r": 0.038461538461538464
+     },
+     "fixed": {
+      "f": 0.6086956521739131,
+      "p": 0.5833333333333334,
+      "r": 0.6363636363636364
+     },
+     "flat": {
+      "f": 0.7272727272727273,
+      "p": 1.0,
+      "r": 0.5714285714285714
+     },
+     "iobj": {
+      "f": 0.6617283950617284,
+      "p": 0.6536585365853659,
+      "r": 0.67
+     },
+     "mark": {
+      "f": 0.744535519125683,
+      "p": 0.7295850066934404,
+      "r": 0.7601115760111576
+     },
+     "nmod": {
+      "f": 0.557921010130671,
+      "p": 0.585877274128893,
+      "r": 0.5325112107623319
+     },
+     "nsubj": {
+      "f": 0.6798469387755102,
+      "p": 0.6533864541832669,
+      "r": 0.7085410435360585
+     },
+     "nummod": {
+      "f": 0.717557251908397,
+      "p": 0.6911764705882353,
+      "r": 0.746031746031746
+     },
+     "obj": {
+      "f": 0.6654581410678971,
+      "p": 0.655094094743673,
+      "r": 0.6761553918285331
+     },
+     "obl": {
+      "f": 0.6461997019374068,
+      "p": 0.632992700729927,
+      "r": 0.6599695585996956
+     },
+     "orphan": {
+      "f": 0.26153846153846155,
+      "p": 0.2698412698412698,
+      "r": 0.2537313432835821
+     },
+     "parataxis": {
+      "f": 0.05741626794258374,
+      "p": 0.08333333333333333,
+      "r": 0.043795620437956206
+     },
+     "root": {
+      "f": 0.8328384279475981,
+      "p": 0.8048615800135044,
+      "r": 0.8628302569670648
+     },
+     "vocative": {
+      "f": 0.5171102661596958,
+      "p": 0.5666666666666667,
+      "r": 0.4755244755244755
+     },
+     "xcomp": {
+      "f": 0.41082410824108245,
+      "p": 0.43832020997375326,
+      "r": 0.38657407407407407
+     }
+    },
+    "dep_uas": 0.758154161181805,
+    "lemma_acc": 0.9494215382594704,
+    "morph_acc": 0.7882575716115191,
+    "morph_micro_f": 0.9132855452710696,
+    "morph_micro_p": 0.9324506762037849,
+    "morph_micro_r": 0.894892369240561,
+    "morph_per_feat": {
+     "Aspect": {
+      "f": 0.819175088773559,
+      "p": 0.812296858071506,
+      "r": 0.8261707988980717
+     },
+     "Case": {
+      "f": 0.9333835625039242,
+      "p": 0.9358710706341545,
+      "r": 0.9309092427152041
+     },
+     "Definite": {
+      "f": 0.7912181605030375,
+      "p": 0.999192462987887,
+      "r": 0.6549047282992237
+     },
+     "Degree": {
+      "f": 0.7049180327868851,
+      "p": 0.8164556962025317,
+      "r": 0.6201923076923077
+     },
+     "Gender": {
+      "f": 0.8863733447244766,
+      "p": 0.886297625149496,
+      "r": 0.8864490772385509
+     },
+     "Mood": {
+      "f": 0.9389817333851534,
+      "p": 0.9413598285602961,
+      "r": 0.9366156231827873
+     },
+     "NumType": {
+      "f": 0.5154639175257733,
+      "p": 0.9259259259259259,
+      "r": 0.35714285714285715
+     },
+     "Number": {
+      "f": 0.974561569247153,
+      "p": 0.9776682634317814,
+      "r": 0.9714745565372235
+     },
+     "Person": {
+      "f": 0.9166358458465863,
+      "p": 0.9126528207394314,
+      "r": 0.9206537890044576
+     },
+     "Polarity": {
+      "f": 0.7710280373831776,
+      "p": 0.9969788519637462,
+      "r": 0.6285714285714286
+     },
+     "Poss": {
+      "f": 0.7438016528925621,
+      "p": 0.9183673469387755,
+      "r": 0.625
+     },
+     "PronType": {
+      "f": 0.7384476766636633,
+      "p": 0.898371437519574,
+      "r": 0.6268575174825175
+     },
+     "Reflex": {
+      "f": 0.7419354838709677,
+      "p": 0.7540983606557377,
+      "r": 0.7301587301587301
+     },
+     "Tense": {
+      "f": 0.9192819482801908,
+      "p": 0.9167501251877817,
+      "r": 0.9218277945619335
+     },
+     "VerbForm": {
+      "f": 0.9673421329863048,
+      "p": 0.970771144278607,
+      "r": 0.9639372607138447
+     },
+     "Voice": {
+      "f": 0.9308955686396034,
+      "p": 0.9343120179149043,
+      "r": 0.9275040138322835
+     }
+    },
+    "pos_acc": 0.9007026991528206,
+    "sents_f": 0.8812019566736549,
+    "sents_p": 0.8517392772711921,
+    "sents_r": 0.912775968150561,
+    "speed": 3134.7443520466104,
+    "tag_acc": 0.9007585127458599,
+    "token_acc": 0.9999124400761772,
+    "token_f": 0.9996825987500958,
+    "token_p": 0.9996935402666199,
+    "token_r": 0.999671657473076
+   },
+   "files": [
+    ".gitattributes",
+    "CHANGELOG.md",
+    "README.md",
+    "attribute_ruler/patterns",
+    "config.cfg",
+    "eval.json",
+    "functions.py",
+    "grc_dep_web_lg-3.8.0-py3-none-any.whl",
+    "grc_dep_web_lg-3.8.1-py3-none-any.whl",
+    "grc_dep_web_lg-3.8.2-py3-none-any.whl",
+    "grc_dep_web_lg-3.8.3-py3-none-any.whl",
+    "grc_dep_web_lg-3.8.4-py3-none-any.whl",
+    "meta.json",
+    "morphologizer/cfg",
+    "morphologizer/model",
+    "parser/cfg",
+    "parser/model",
+    "parser/moves",
+    "senter/cfg",
+    "senter/model",
+    "tagger/cfg",
+    "tagger/model",
+    "tok2vec/cfg",
+    "tok2vec/model",
+    "tokenizer",
+    "trainable_lemmatizer/cfg",
+    "trainable_lemmatizer/model",
+    "trainable_lemmatizer/trees",
+    "vocab/key2row",
+    "vocab/lookups.bin",
+    "vocab/strings.json",
+    "vocab/vectors",
+    "vocab/vectors.cfg"
+   ],
+   "lastModified": "2026-08-24T20:40:27.000Z",
+   "private": false,
+   "status": 200,
+   "tags": [
+    "v3.8.2"
+   ]
+  },
+  "latincy/grc_dep_web_md": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-08-24T20:40:26.000Z",
+     "id": "990b53ed0398",
+     "title": "Remove mis-named duplicate wheel (grc_dep_web_md-any-...)"
+    },
+    {
+     "date": "2026-08-17T15:51:08.000Z",
+     "id": "e6307fc2bcaf",
+     "title": "Remove stale package_functions.py (3.8.2-era; lacks grc_core_tokenizer)"
+    },
+    {
+     "date": "2026-08-17T15:48:39.000Z",
+     "id": "82d1880b69e4",
+     "title": "Upload grc_dep_web_md-any-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:48:25.000Z",
+     "id": "857271e9a911",
+     "title": "Upload functions.py with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:48:24.000Z",
+     "id": "48b43a0fb63c",
+     "title": "Upload eval.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:29.000Z",
+     "id": "2a2966af6308",
+     "title": "Upload vocab/strings.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:29.000Z",
+     "id": "44fe88fb2c6a",
+     "title": "Upload vocab/lookups.bin with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:23.000Z",
+     "id": "0e19dba58356",
+     "title": "Upload attribute_ruler/patterns with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:22.000Z",
+     "id": "e799ea100cf5",
+     "title": "Upload tokenizer with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:22.000Z",
+     "id": "2c6cd5b3eb44",
+     "title": "Upload config.cfg with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:44:23.000Z",
+     "id": "3808ee1e72d5",
+     "title": "Upload CHANGELOG.md with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:44:01.000Z",
+     "id": "a1901ff03455",
+     "title": "Upload meta.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:43:17.000Z",
+     "id": "f68312583818",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:34:06.000Z",
+     "id": "9181fc040ffc",
+     "title": "Upload grc_dep_web_md-3.8.4-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-08-04T15:34:52.000Z",
+     "id": "9422ad4dd504",
+     "title": "3.8.3 hotfix: declare click as a dependency (clean-env spacy.load() was failing with ModuleNotFoundError)"
+    },
+    {
+     "date": "2026-08-04T15:20:47.000Z",
+     "id": "6ba59369f991",
+     "title": "3.8.3: fix elided lemma lookup (lookup-table-only patch, weights unchanged)"
+    },
+    {
+     "date": "2026-07-11T15:07:41.000Z",
+     "id": "c17ff8576d88",
+     "title": "Add 3.8.2 changelog"
+    },
+    {
+     "date": "2026-07-11T15:07:40.000Z",
+     "id": "cf4ad3b4f125",
+     "title": "Add pinnable 3.8.2 wheel"
+    },
+    {
+     "date": "2026-07-11T15:07:22.000Z",
+     "id": "13a8348d0637",
+     "title": "3.8.2: keep crasis whole (tokenizer-only patch)"
+    },
+    {
+     "date": "2026-03-01T02:44:57.000Z",
+     "id": "d033fbe8c67f",
+     "title": "Update model card for v3.8.1"
+    },
+    {
+     "date": "2026-03-01T02:44:56.000Z",
+     "id": "4df80674b87e",
+     "title": "Add grc_dep_web_md v3.8.1 (XPOS harmonized)"
+    },
+    {
+     "date": "2026-02-27T14:23:32.000Z",
+     "id": "a6a9d4cda9ba",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:23:32.000Z",
+     "id": "f9ad96a1a239",
+     "title": "Upload grc_dep_web_md-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:14:31.000Z",
+     "id": "26954d79dc9e",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:14:31.000Z",
+     "id": "618ac562879c",
+     "title": "Upload grc_dep_web_md-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:01:42.000Z",
+     "id": "c5274403da9d",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:01:41.000Z",
+     "id": "b05e3d2b7d06",
+     "title": "Upload grc_dep_web_md-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:01:37.000Z",
+     "id": "05878484b038",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-02-27T14:01:37.000Z",
+   "eval": {
+    "_file": "eval.json",
+    "dep_las": 0.6638472132506185,
+    "dep_las_per_type": {
+     "acl": {
+      "f": 0.2650273224043716,
+      "p": 0.24310776942355888,
+      "r": 0.2912912912912913
+     },
+     "acl:relcl": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "advcl": {
+      "f": 0.5846560846560847,
+      "p": 0.5934479054779807,
+      "r": 0.5761209593326382
+     },
+     "advmod": {
+      "f": 0.5506871463217462,
+      "p": 0.6319109461966604,
+      "r": 0.48796561604584526
+     },
+     "amod": {
+      "f": 0.3823246878001921,
+      "p": 0.35221238938053095,
+      "r": 0.4180672268907563
+     },
+     "appos": {
+      "f": 0.423469387755102,
+      "p": 0.38073394495412843,
+      "r": 0.47701149425287354
+     },
+     "aux": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "case": {
+      "f": 0.8953371351895337,
+      "p": 0.8947368421052632,
+      "r": 0.8959382343068144
+     },
+     "cc": {
+      "f": 0.6579265137139899,
+      "p": 0.6266841932303647,
+      "r": 0.6924473493100944
+     },
+     "ccomp": {
+      "f": 0.5303370786516853,
+      "p": 0.5086206896551724,
+      "r": 0.5539906103286385
+     },
+     "conj": {
+      "f": 0.5496351978775149,
+      "p": 0.5483017203352448,
+      "r": 0.5509751773049646
+     },
+     "cop": {
+      "f": 0.6779935275080906,
+      "p": 0.6813008130081301,
+      "r": 0.6747181964573269
+     },
+     "csubj": {
+      "f": 0.27450980392156865,
+      "p": 0.3111111111111111,
+      "r": 0.24561403508771928
+     },
+     "dep": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "det": {
+      "f": 0.8461977341266606,
+      "p": 0.8367182462927144,
+      "r": 0.8558944765045342
+     },
+     "discourse": {
+      "f": 0.5636704119850188,
+      "p": 0.4574468085106383,
+      "r": 0.7341463414634146
+     },
+     "dislocated": {
+      "f": 0.08450704225352111,
+      "p": 0.15789473684210525,
+      "r": 0.057692307692307696
+     },
+     "fixed": {
+      "f": 0.3529411764705882,
+      "p": 0.5,
+      "r": 0.2727272727272727
+     },
+     "flat": {
+      "f": 0.8571428571428571,
+      "p": 0.8571428571428571,
+      "r": 0.8571428571428571
+     },
+     "iobj": {
+      "f": 0.6272352132049518,
+      "p": 0.6972477064220184,
+      "r": 0.57
+     },
+     "mark": {
+      "f": 0.7372060857538035,
+      "p": 0.7311385459533608,
+      "r": 0.7433751743375174
+     },
+     "nmod": {
+      "f": 0.552169343942351,
+      "p": 0.5945683802133851,
+      "r": 0.515414798206278
+     },
+     "nsubj": {
+      "f": 0.6798537234042553,
+      "p": 0.680079813767875,
+      "r": 0.6796277833167165
+     },
+     "nummod": {
+      "f": 0.6814814814814814,
+      "p": 0.6388888888888888,
+      "r": 0.7301587301587301
+     },
+     "obj": {
+      "f": 0.6540604423434071,
+      "p": 0.6595165134490977,
+      "r": 0.6486939048894843
+     },
+     "obl": {
+      "f": 0.6318721595074036,
+      "p": 0.6094457013574661,
+      "r": 0.6560121765601218
+     },
+     "orphan": {
+      "f": 0.15950920245398773,
+      "p": 0.13541666666666666,
+      "r": 0.19402985074626866
+     },
+     "parataxis": {
+      "f": 0.049792531120331954,
+      "p": 0.057692307692307696,
+      "r": 0.043795620437956206
+     },
+     "root": {
+      "f": 0.8272489082969432,
+      "p": 0.799459824442944,
+      "r": 0.8570394498733261
+     },
+     "vocative": {
+      "f": 0.4423076923076923,
+      "p": 0.40828402366863903,
+      "r": 0.4825174825174825
+     },
+     "xcomp": {
+      "f": 0.3753501400560224,
+      "p": 0.475177304964539,
+      "r": 0.3101851851851852
+     }
+    },
+    "dep_uas": 0.7533822489822782,
+    "lemma_acc": 0.9493996475597342,
+    "morph_acc": 0.7828199908058056,
+    "morph_micro_f": 0.9093011424078442,
+    "morph_micro_p": 0.925372431809089,
+    "morph_micro_r": 0.8937785556793126,
+    "morph_per_feat": {
+     "Aspect": {
+      "f": 0.8123661670235546,
+      "p": 0.7899531494013534,
+      "r": 0.8360881542699724
+     },
+     "Case": {
+      "f": 0.9277234783338228,
+      "p": 0.9322205361659079,
+      "r": 0.9232696000667947
+     },
+     "Definite": {
+      "f": 0.8227966365618187,
+      "p": 0.9994955863808322,
+      "r": 0.6991884262526464
+     },
+     "Degree": {
+      "f": 0.7058823529411765,
+      "p": 0.7540983606557377,
+      "r": 0.6634615384615384
+     },
+     "Gender": {
+      "f": 0.8750855285665413,
+      "p": 0.8759845890410959,
+      "r": 0.8741883116883117
+     },
+     "Mood": {
+      "f": 0.9360752740323989,
+      "p": 0.9368932038834952,
+      "r": 0.9352587710796666
+     },
+     "NumType": {
+      "f": 0.5742574257425743,
+      "p": 0.9354838709677419,
+      "r": 0.4142857142857143
+     },
+     "Number": {
+      "f": 0.9727461870454116,
+      "p": 0.9768951821792436,
+      "r": 0.9686322854599
+     },
+     "Person": {
+      "f": 0.9131390068844294,
+      "p": 0.9003466204506065,
+      "r": 0.9263001485884101
+     },
+     "Polarity": {
+      "f": 0.8219484882418814,
+      "p": 0.9972826086956522,
+      "r": 0.699047619047619
+     },
+     "Poss": {
+      "f": 0.49019607843137253,
+      "p": 0.8333333333333334,
+      "r": 0.3472222222222222
+     },
+     "PronType": {
+      "f": 0.7467155128852956,
+      "p": 0.8848802395209581,
+      "r": 0.6458697552447552
+     },
+     "Reflex": {
+      "f": 0.8208955223880596,
+      "p": 0.7746478873239436,
+      "r": 0.873015873015873
+     },
+     "Tense": {
+      "f": 0.9071790699129998,
+      "p": 0.9021536163326279,
+      "r": 0.9122608257804632
+     },
+     "VerbForm": {
+      "f": 0.9629080118694362,
+      "p": 0.9639806906795395,
+      "r": 0.9618377176732124
+     },
+     "Voice": {
+      "f": 0.9246367851622874,
+      "p": 0.9257241891557316,
+      "r": 0.9235519328146227
+     }
+    },
+    "pos_acc": 0.9024878780250211,
+    "sents_f": 0.8812019566736549,
+    "sents_p": 0.8517392772711921,
+    "sents_r": 0.912775968150561,
+    "speed": 3183.9291736388923,
+    "tag_acc": 0.9046331665991704,
+    "token_acc": 0.9999124400761772,
+    "token_f": 0.9996825987500958,
+    "token_p": 0.9996935402666199,
+    "token_r": 0.999671657473076
+   },
+   "files": [
+    ".gitattributes",
+    "CHANGELOG.md",
+    "README.md",
+    "attribute_ruler/patterns",
+    "config.cfg",
+    "eval.json",
+    "functions.py",
+    "grc_dep_web_md-3.8.0-py3-none-any.whl",
+    "grc_dep_web_md-3.8.1-py3-none-any.whl",
+    "grc_dep_web_md-3.8.2-py3-none-any.whl",
+    "grc_dep_web_md-3.8.3-py3-none-any.whl",
+    "grc_dep_web_md-3.8.4-py3-none-any.whl",
+    "meta.json",
+    "morphologizer/cfg",
+    "morphologizer/model",
+    "parser/cfg",
+    "parser/model",
+    "parser/moves",
+    "senter/cfg",
+    "senter/model",
+    "tagger/cfg",
+    "tagger/model",
+    "tok2vec/cfg",
+    "tok2vec/model",
+    "tokenizer",
+    "trainable_lemmatizer/cfg",
+    "trainable_lemmatizer/model",
+    "trainable_lemmatizer/trees",
+    "vocab/key2row",
+    "vocab/lookups.bin",
+    "vocab/strings.json",
+    "vocab/vectors",
+    "vocab/vectors.cfg"
+   ],
+   "lastModified": "2026-08-24T20:40:26.000Z",
+   "private": false,
+   "status": 200,
+   "tags": [
+    "v3.8.2"
+   ]
+  },
+  "latincy/grc_dep_web_sm": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-08-24T20:40:25.000Z",
+     "id": "71e9a957ed8b",
+     "title": "Remove mis-named duplicate wheel (grc_dep_web_sm-any-...)"
+    },
+    {
+     "date": "2026-08-17T15:51:07.000Z",
+     "id": "937c54ab3f57",
+     "title": "Remove stale package_functions.py (3.8.2-era; lacks grc_core_tokenizer)"
+    },
+    {
+     "date": "2026-08-17T15:48:38.000Z",
+     "id": "f3728fe567ef",
+     "title": "Upload grc_dep_web_sm-any-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:48:24.000Z",
+     "id": "f7eecc458a53",
+     "title": "Upload functions.py with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:48:23.000Z",
+     "id": "c46a1448a8b8",
+     "title": "Upload eval.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:18.000Z",
+     "id": "133dee01dd2b",
+     "title": "Upload vocab/strings.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:17.000Z",
+     "id": "3f90e5f60dbf",
+     "title": "Upload vocab/lookups.bin with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:45:59.000Z",
+     "id": "2a1fed9a4685",
+     "title": "Upload attribute_ruler/patterns with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:45:58.000Z",
+     "id": "777f9776151f",
+     "title": "Upload tokenizer with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:45:58.000Z",
+     "id": "e1024d03713b",
+     "title": "Upload config.cfg with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:44:23.000Z",
+     "id": "6a66235280c6",
+     "title": "Upload CHANGELOG.md with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:44:01.000Z",
+     "id": "ab57204c3319",
+     "title": "Upload meta.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:43:16.000Z",
+     "id": "c4d1e6274a81",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:34:04.000Z",
+     "id": "249e4c8a76bd",
+     "title": "Upload grc_dep_web_sm-3.8.4-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-08-04T15:34:50.000Z",
+     "id": "0165694d960f",
+     "title": "3.8.3 hotfix: declare click as a dependency (clean-env spacy.load() was failing with ModuleNotFoundError)"
+    },
+    {
+     "date": "2026-08-04T15:20:42.000Z",
+     "id": "224903ab3dea",
+     "title": "3.8.3: fix elided lemma lookup (lookup-table-only patch, weights unchanged)"
+    },
+    {
+     "date": "2026-07-11T15:03:49.000Z",
+     "id": "bc413974397a",
+     "title": "Add 3.8.2 changelog"
+    },
+    {
+     "date": "2026-07-11T14:58:15.000Z",
+     "id": "3bd558dbcf4c",
+     "title": "Add pinnable 3.8.2 wheel"
+    },
+    {
+     "date": "2026-07-11T14:55:59.000Z",
+     "id": "c1e1e2253dd3",
+     "title": "3.8.2: keep crasis whole (tokenizer-only patch)"
+    },
+    {
+     "date": "2026-03-01T02:44:39.000Z",
+     "id": "d47e03c2d161",
+     "title": "Update model card for v3.8.1"
+    },
+    {
+     "date": "2026-03-01T02:44:39.000Z",
+     "id": "ff53ceabbe7d",
+     "title": "Add grc_dep_web_sm v3.8.1 (XPOS harmonized)"
+    },
+    {
+     "date": "2026-02-27T14:23:28.000Z",
+     "id": "02f2632253f5",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:23:27.000Z",
+     "id": "c5773ab3bd3b",
+     "title": "Upload grc_dep_web_sm-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:14:28.000Z",
+     "id": "8f3fae042d32",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:14:28.000Z",
+     "id": "1f9bc0850aee",
+     "title": "Upload grc_dep_web_sm-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:01:36.000Z",
+     "id": "fcc01c15da57",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:01:36.000Z",
+     "id": "7e2c5ac4bdcc",
+     "title": "Upload grc_dep_web_sm-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-24T23:01:11.000Z",
+     "id": "68bb62440e3d",
+     "title": "Fix duplicate YAML frontmatter in model card"
+    },
+    {
+     "date": "2026-02-24T22:58:44.000Z",
+     "id": "425e8a0132f9",
+     "title": "Initial release: grc_dep_web_sm v3.8.0"
+    },
+    {
+     "date": "2026-02-24T22:58:33.000Z",
+     "id": "74810596d1de",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-02-24T22:58:33.000Z",
+   "eval": {
+    "_file": "eval.json",
+    "dep_las": 0.6355126517478427,
+    "dep_las_per_type": {
+     "acl": {
+      "f": 0.2222222222222222,
+      "p": 0.24372759856630824,
+      "r": 0.2042042042042042
+     },
+     "acl:relcl": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "advcl": {
+      "f": 0.5196177062374244,
+      "p": 0.5019436345966958,
+      "r": 0.5385818561001042
+     },
+     "advmod": {
+      "f": 0.5391277451283638,
+      "p": 0.5856854838709677,
+      "r": 0.4994269340974212
+     },
+     "amod": {
+      "f": 0.3544857768052516,
+      "p": 0.3698630136986301,
+      "r": 0.3403361344537815
+     },
+     "appos": {
+      "f": 0.40561622464898595,
+      "p": 0.44368600682593856,
+      "r": 0.3735632183908046
+     },
+     "aux": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "case": {
+      "f": 0.8913621262458472,
+      "p": 0.8822755672476159,
+      "r": 0.9006377979187646
+     },
+     "cc": {
+      "f": 0.6449912126537786,
+      "p": 0.625,
+      "r": 0.6663035584604212
+     },
+     "ccomp": {
+      "f": 0.4420677361853833,
+      "p": 0.5134575569358178,
+      "r": 0.38810641627543035
+     },
+     "conj": {
+      "f": 0.4977436823104693,
+      "p": 0.5068933823529411,
+      "r": 0.48891843971631205
+     },
+     "cop": {
+      "f": 0.6049481245011972,
+      "p": 0.5996835443037974,
+      "r": 0.6103059581320451
+     },
+     "csubj": {
+      "f": 0.24778761061946902,
+      "p": 0.25,
+      "r": 0.24561403508771928
+     },
+     "dep": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "det": {
+      "f": 0.8298521850899744,
+      "p": 0.8091806360645465,
+      "r": 0.8516075845012366
+     },
+     "discourse": {
+      "f": 0.5585858585858586,
+      "p": 0.47672413793103446,
+      "r": 0.6743902439024391
+     },
+     "dislocated": {
+      "f": 0.03333333333333334,
+      "p": 0.125,
+      "r": 0.019230769230769232
+     },
+     "fixed": {
+      "f": 0.15384615384615385,
+      "p": 0.5,
+      "r": 0.09090909090909091
+     },
+     "flat": {
+      "f": 0.7142857142857143,
+      "p": 0.7142857142857143,
+      "r": 0.7142857142857143
+     },
+     "iobj": {
+      "f": 0.5897810218978102,
+      "p": 0.7087719298245614,
+      "r": 0.505
+     },
+     "mark": {
+      "f": 0.6881258941344779,
+      "p": 0.7063142437591777,
+      "r": 0.6708507670850767
+     },
+     "nmod": {
+      "f": 0.4954186413902053,
+      "p": 0.5677045619116582,
+      "r": 0.43946188340807174
+     },
+     "nsubj": {
+      "f": 0.6210185658320558,
+      "p": 0.6369671558350803,
+      "r": 0.6058491193087404
+     },
+     "nummod": {
+      "f": 0.6292134831460674,
+      "p": 0.5957446808510638,
+      "r": 0.6666666666666666
+     },
+     "obj": {
+      "f": 0.6067976301839726,
+      "p": 0.5676779463243874,
+      "r": 0.651707970529136
+     },
+     "obl": {
+      "f": 0.6032371569317383,
+      "p": 0.5609947643979057,
+      "r": 0.6523592085235921
+     },
+     "orphan": {
+      "f": 0.14583333333333331,
+      "p": 0.2413793103448276,
+      "r": 0.1044776119402985
+     },
+     "parataxis": {
+      "f": 0.02162162162162162,
+      "p": 0.041666666666666664,
+      "r": 0.014598540145985401
+     },
+     "root": {
+      "f": 0.8164192139737992,
+      "p": 0.7889939230249832,
+      "r": 0.8458197611292074
+     },
+     "vocative": {
+      "f": 0.4128113879003559,
+      "p": 0.42028985507246375,
+      "r": 0.40559440559440557
+     },
+     "xcomp": {
+      "f": 0.3534328358208955,
+      "p": 0.3649815043156597,
+      "r": 0.3425925925925926
+     }
+    },
+    "dep_uas": 0.7304706068768816,
+    "lemma_acc": 0.9494215382594704,
+    "morph_acc": 0.7615148861646235,
+    "morph_micro_f": 0.8895453090594981,
+    "morph_micro_p": 0.9057483901366421,
+    "morph_micro_r": 0.8739117586888823,
+    "morph_per_feat": {
+     "Aspect": {
+      "f": 0.7543103448275862,
+      "p": 0.7380073800738007,
+      "r": 0.7713498622589532
+     },
+     "Case": {
+      "f": 0.9141073448694852,
+      "p": 0.9174516400336418,
+      "r": 0.9107873424062787
+     },
+     "Definite": {
+      "f": 0.8350113005958496,
+      "p": 0.999508116084604,
+      "r": 0.7170077628793226
+     },
+     "Degree": {
+      "f": 0.569060773480663,
+      "p": 0.6688311688311688,
+      "r": 0.4951923076923077
+     },
+     "Gender": {
+      "f": 0.8573076183763695,
+      "p": 0.857216076538675,
+      "r": 0.8573991797676008
+     },
+     "Mood": {
+      "f": 0.9082050282595985,
+      "p": 0.913188320595728,
+      "r": 0.9032758286489629
+     },
+     "NumType": {
+      "f": 0.4842105263157895,
+      "p": 0.92,
+      "r": 0.32857142857142857
+     },
+     "Number": {
+      "f": 0.9627375118218554,
+      "p": 0.9668773529513349,
+      "r": 0.9586329703444969
+     },
+     "Person": {
+      "f": 0.8984145625367,
+      "p": 0.8877284595300261,
+      "r": 0.9093610698365527
+     },
+     "Polarity": {
+      "f": 0.7958715596330276,
+      "p": 1.0,
+      "r": 0.660952380952381
+     },
+     "Poss": {
+      "f": 0.688,
+      "p": 0.8113207547169812,
+      "r": 0.5972222222222222
+     },
+     "PronType": {
+      "f": 0.7479512042539881,
+      "p": 0.8748719449729255,
+      "r": 0.6531905594405595
+     },
+     "Reflex": {
+      "f": 0.7832167832167831,
+      "p": 0.7,
+      "r": 0.8888888888888888
+     },
+     "Tense": {
+      "f": 0.8379895314372201,
+      "p": 0.839630986983445,
+      "r": 0.8363544813695871
+     },
+     "VerbForm": {
+      "f": 0.9335740521695823,
+      "p": 0.9412503138337937,
+      "r": 0.9260219834506608
+     },
+     "Voice": {
+      "f": 0.8866338791010396,
+      "p": 0.8939241777554607,
+      "r": 0.8794615289613437
+     }
+    },
+    "pos_acc": 0.8855882578286615,
+    "sents_f": 0.8812019566736549,
+    "sents_p": 0.8517392772711921,
+    "sents_r": 0.912775968150561,
+    "speed": 3047.245837896514,
+    "tag_acc": 0.886244978820748,
+    "token_acc": 0.9999124400761772,
+    "token_f": 0.9996825987500958,
+    "token_p": 0.9996935402666199,
+    "token_r": 0.999671657473076
+   },
+   "files": [
+    ".gitattributes",
+    "CHANGELOG.md",
+    "README.md",
+    "attribute_ruler/patterns",
+    "config.cfg",
+    "eval.json",
+    "functions.py",
+    "grc_dep_web_sm-3.8.0-py3-none-any.whl",
+    "grc_dep_web_sm-3.8.1-py3-none-any.whl",
+    "grc_dep_web_sm-3.8.2-py3-none-any.whl",
+    "grc_dep_web_sm-3.8.3-py3-none-any.whl",
+    "grc_dep_web_sm-3.8.4-py3-none-any.whl",
+    "meta.json",
+    "morphologizer/cfg",
+    "morphologizer/model",
+    "parser/cfg",
+    "parser/model",
+    "parser/moves",
+    "senter/cfg",
+    "senter/model",
+    "tagger/cfg",
+    "tagger/model",
+    "tok2vec/cfg",
+    "tok2vec/model",
+    "tokenizer",
+    "trainable_lemmatizer/cfg",
+    "trainable_lemmatizer/model",
+    "trainable_lemmatizer/trees",
+    "vocab/key2row",
+    "vocab/lookups.bin",
+    "vocab/strings.json",
+    "vocab/vectors",
+    "vocab/vectors.cfg"
+   ],
+   "lastModified": "2026-08-24T20:40:25.000Z",
+   "private": false,
+   "status": 200,
+   "tags": [
+    "v3.8.2"
+   ]
+  },
+  "latincy/grc_dep_web_trf": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-08-24T20:40:28.000Z",
+     "id": "6252a7134b4b",
+     "title": "Remove mis-named duplicate wheel (grc_dep_web_trf-any-...)"
+    },
+    {
+     "date": "2026-08-17T15:51:08.000Z",
+     "id": "e0749be03956",
+     "title": "Remove stale package_functions.py (3.8.2-era; lacks grc_core_tokenizer)"
+    },
+    {
+     "date": "2026-08-17T15:48:52.000Z",
+     "id": "fa942a26f5bd",
+     "title": "Upload grc_dep_web_trf-any-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:48:27.000Z",
+     "id": "f51dac501a09",
+     "title": "Upload functions.py with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:48:27.000Z",
+     "id": "eede3444cf54",
+     "title": "Upload eval.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:47:27.000Z",
+     "id": "9b41df17f095",
+     "title": "Upload vocab/strings.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:47:27.000Z",
+     "id": "282197100295",
+     "title": "Upload vocab/lookups.bin with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:47:25.000Z",
+     "id": "c7e77328c342",
+     "title": "Upload transformer/model with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:51.000Z",
+     "id": "bf7d68f0d241",
+     "title": "Upload attribute_ruler/patterns with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:51.000Z",
+     "id": "16bd696c1e07",
+     "title": "Upload tokenizer with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:46:50.000Z",
+     "id": "edbc70d18da1",
+     "title": "Upload config.cfg with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:44:24.000Z",
+     "id": "d20f3262b44e",
+     "title": "Upload CHANGELOG.md with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:44:02.000Z",
+     "id": "7342aa10b4db",
+     "title": "Upload meta.json with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:43:18.000Z",
+     "id": "62197b4cff67",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-08-17T15:37:56.000Z",
+     "id": "a27c3839cf90",
+     "title": "Upload grc_dep_web_trf-3.8.4-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-08-04T15:35:04.000Z",
+     "id": "1f02bd080be1",
+     "title": "3.8.3 hotfix: declare click as a dependency (clean-env spacy.load() was failing with ModuleNotFoundError)"
+    },
+    {
+     "date": "2026-08-04T15:21:07.000Z",
+     "id": "140267e2f61b",
+     "title": "3.8.3: fix elided lemma lookup (lookup-table-only patch, weights unchanged)"
+    },
+    {
+     "date": "2026-07-11T15:33:19.000Z",
+     "id": "b0016f3f87fe",
+     "title": "Add 3.8.2 changelog"
+    },
+    {
+     "date": "2026-07-11T15:33:18.000Z",
+     "id": "f29f9f641122",
+     "title": "Add pinnable 3.8.2 wheel"
+    },
+    {
+     "date": "2026-07-11T15:33:06.000Z",
+     "id": "aa29302a2bdc",
+     "title": "3.8.2: keep crasis whole (tokenizer-only patch)"
+    },
+    {
+     "date": "2026-03-01T02:53:13.000Z",
+     "id": "5c9dd6fa427d",
+     "title": "Update model card for v3.8.1"
+    },
+    {
+     "date": "2026-03-01T02:53:12.000Z",
+     "id": "37e909ce9b98",
+     "title": "Add grc_dep_web_trf v3.8.1 (XPOS harmonized)"
+    },
+    {
+     "date": "2026-02-27T14:23:49.000Z",
+     "id": "cbeeafcc7aac",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:23:48.000Z",
+     "id": "91b9f0d498d2",
+     "title": "Upload grc_dep_web_trf-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:14:39.000Z",
+     "id": "732bd396e63f",
+     "title": "Upload grc_dep_web_trf-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:02:10.000Z",
+     "id": "e633ef116325",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:02:09.000Z",
+     "id": "11e3a801a844",
+     "title": "Upload grc_dep_web_trf-3.8.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-02-27T14:01:53.000Z",
+     "id": "f89e30214c6e",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-02-27T14:01:53.000Z",
+   "eval": {
+    "_file": "eval.json",
+    "dep_las": 0.7545564265424799,
+    "dep_las_per_type": {
+     "acl": {
+      "f": 0.3658210947930574,
+      "p": 0.3293269230769231,
+      "r": 0.4114114114114114
+     },
+     "acl:relcl": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "advcl": {
+      "f": 0.6954275381038492,
+      "p": 0.6891961085509473,
+      "r": 0.7017726798748697
+     },
+     "advmod": {
+      "f": 0.6766040181464679,
+      "p": 0.6177514792899408,
+      "r": 0.7478510028653295
+     },
+     "amod": {
+      "f": 0.4931506849315069,
+      "p": 0.6055045871559633,
+      "r": 0.41596638655462187
+     },
+     "appos": {
+      "f": 0.5359477124183006,
+      "p": 0.6212121212121212,
+      "r": 0.47126436781609193
+     },
+     "aux": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "case": {
+      "f": 0.9493056717416763,
+      "p": 0.9462975316877918,
+      "r": 0.9523329976502182
+     },
+     "cc": {
+      "f": 0.7849403122130395,
+      "p": 0.7941285767372724,
+      "r": 0.7759622367465505
+     },
+     "ccomp": {
+      "f": 0.656,
+      "p": 0.6710310965630114,
+      "r": 0.6416275430359938
+     },
+     "conj": {
+      "f": 0.6852406170849643,
+      "p": 0.7129851461427887,
+      "r": 0.6595744680851063
+     },
+     "cop": {
+      "f": 0.7653543307086613,
+      "p": 0.74884437596302,
+      "r": 0.782608695652174
+     },
+     "csubj": {
+      "f": 0.41509433962264153,
+      "p": 0.4489795918367347,
+      "r": 0.38596491228070173
+     },
+     "dep": {
+      "f": 0.0,
+      "p": 0.0,
+      "r": 0.0
+     },
+     "det": {
+      "f": 0.8927347498286498,
+      "p": 0.9291956482967719,
+      "r": 0.8590272052761748
+     },
+     "discourse": {
+      "f": 0.19037433155080216,
+      "p": 0.7739130434782608,
+      "r": 0.10853658536585366
+     },
+     "dislocated": {
+      "f": 0.03389830508474577,
+      "p": 0.14285714285714285,
+      "r": 0.019230769230769232
+     },
+     "fixed": {
+      "f": 0.0975609756097561,
+      "p": 0.06666666666666667,
+      "r": 0.18181818181818182
+     },
+     "flat": {
+      "f": 0.4,
+      "p": 0.6666666666666666,
+      "r": 0.2857142857142857
+     },
+     "iobj": {
+      "f": 0.6270022883295195,
+      "p": 0.5780590717299579,
+      "r": 0.685
+     },
+     "mark": {
+      "f": 0.8415300546448088,
+      "p": 0.8246318607764391,
+      "r": 0.8591352859135286
+     },
+     "nmod": {
+      "f": 0.6788893317390727,
+      "p": 0.6453649911593837,
+      "r": 0.7160874439461884
+     },
+     "nsubj": {
+      "f": 0.8071970947507427,
+      "p": 0.8019022630370614,
+      "r": 0.8125623130608175
+     },
+     "nummod": {
+      "f": 0.76,
+      "p": 0.7661290322580645,
+      "r": 0.753968253968254
+     },
+     "obj": {
+      "f": 0.7756765568959896,
+      "p": 0.7557179161372299,
+      "r": 0.7967180174146015
+     },
+     "obl": {
+      "f": 0.7119169378583605,
+      "p": 0.7250631313131313,
+      "r": 0.6992389649923897
+     },
+     "orphan": {
+      "f": 0.16494845360824742,
+      "p": 0.26666666666666666,
+      "r": 0.11940298507462686
+     },
+     "parataxis": {
+      "f": 0.06382978723404256,
+      "p": 0.11764705882352941,
+      "r": 0.043795620437956206
+     },
+     "root": {
+      "f": 0.8929257641921396,
+      "p": 0.862930452397029,
+      "r": 0.9250814332247557
+     },
+     "vocative": {
+      "f": 0.5586206896551724,
+      "p": 0.5510204081632653,
+      "r": 0.5664335664335665
+     },
+     "xcomp": {
+      "f": 0.5601355166572558,
+      "p": 0.5468577728776185,
+      "r": 0.5740740740740741
+     }
+    },
+    "dep_uas": 0.8396708320633954,
+    "lemma_acc": 0.9494434289592065,
+    "morph_acc": 0.7879292039272775,
+    "morph_micro_f": 0.9233834064442833,
+    "morph_micro_p": 0.9631327303998618,
+    "morph_micro_r": 0.886785018828753,
+    "morph_per_feat": {
+     "Aspect": {
+      "f": 0.9037790697674418,
+      "p": 0.9566153846153846,
+      "r": 0.8564738292011019
+     },
+     "Case": {
+      "f": 0.9688061885845703,
+      "p": 0.9703886748199029,
+      "r": 0.9672288553060032
+     },
+     "Definite": {
+      "f": 0.4873231918868428,
+      "p": 1.0,
+      "r": 0.3221594918842625
+     },
+     "Degree": {
+      "f": 0.8040201005025126,
+      "p": 0.8421052631578947,
+      "r": 0.7692307692307693
+     },
+     "Gender": {
+      "f": 0.9268753894750413,
+      "p": 0.9324657356565351,
+      "r": 0.9213516746411483
+     },
+     "Mood": {
+      "f": 0.9770371088072861,
+      "p": 0.9767531964354901,
+      "r": 0.9773211862764102
+     },
+     "NumType": {
+      "f": 0.8750000000000001,
+      "p": 0.9655172413793104,
+      "r": 0.8
+     },
+     "Number": {
+      "f": 0.987978254531735,
+      "p": 0.9895564945549487,
+      "r": 0.9864050407506335
+     },
+     "Person": {
+      "f": 0.9451327433628318,
+      "p": 0.9802075019952114,
+      "r": 0.912481426448737
+     },
+     "Polarity": {
+      "f": 0.4234234234234234,
+      "p": 1.0,
+      "r": 0.26857142857142857
+     },
+     "Poss": {
+      "f": 0.8148148148148149,
+      "p": 0.873015873015873,
+      "r": 0.7638888888888888
+     },
+     "PronType": {
+      "f": 0.5074159648207498,
+      "p": 0.7981242672919109,
+      "r": 0.3719405594405594
+     },
+     "Reflex": {
+      "f": 0.7924528301886793,
+      "p": 0.9767441860465116,
+      "r": 0.6666666666666666
+     },
+     "Tense": {
+      "f": 0.9646140284598916,
+      "p": 0.9649785840262031,
+      "r": 0.9642497482376636
+     },
+     "VerbForm": {
+      "f": 0.9892579330781578,
+      "p": 0.9890137020120973,
+      "r": 0.9895022847968383
+     },
+     "Voice": {
+      "f": 0.9690085195703174,
+      "p": 0.968769287742254,
+      "r": 0.9692478695813265
+     }
+    },
+    "pos_acc": 0.9169120302973918,
+    "sents_f": 0.8812019566736549,
+    "sents_p": 0.8517392772711921,
+    "sents_r": 0.912775968150561,
+    "speed": 846.0577861220621,
+    "tag_acc": 0.918476357267951,
+    "token_acc": 0.9999124400761772,
+    "token_f": 0.9996825987500958,
+    "token_p": 0.9996935402666199,
+    "token_r": 0.999671657473076
+   },
+   "files": [
+    ".gitattributes",
+    "CHANGELOG.md",
+    "README.md",
+    "attribute_ruler/patterns",
+    "config.cfg",
+    "eval.json",
+    "functions.py",
+    "grc_dep_web_trf-3.8.0-py3-none-any.whl",
+    "grc_dep_web_trf-3.8.1-py3-none-any.whl",
+    "grc_dep_web_trf-3.8.2-py3-none-any.whl",
+    "grc_dep_web_trf-3.8.3-py3-none-any.whl",
+    "grc_dep_web_trf-3.8.4-py3-none-any.whl",
+    "meta.json",
+    "morphologizer/cfg",
+    "morphologizer/model",
+    "parser/cfg",
+    "parser/model",
+    "parser/moves",
+    "senter/cfg",
+    "senter/model",
+    "tagger/cfg",
+    "tagger/model",
+    "tokenizer",
+    "trainable_lemmatizer/cfg",
+    "trainable_lemmatizer/model",
+    "trainable_lemmatizer/trees",
+    "transformer/cfg",
+    "transformer/model",
+    "vocab/key2row",
+    "vocab/lookups.bin",
+    "vocab/strings.json",
+    "vocab/vectors",
+    "vocab/vectors.cfg"
+   ],
+   "lastModified": "2026-08-24T20:40:28.000Z",
+   "private": false,
+   "status": 200,
+   "tags": [
+    "v3.8.2"
+   ]
+  },
+  "latincy/la_core_web_lg": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-09-18T17:59:45.000Z",
+     "id": "eef57207424f",
+     "title": "Remove -any- alias: not a PEP 440 wheel filename; rejected by current pip and uv"
+    },
+    {
+     "date": "2026-09-18T17:58:23.000Z",
+     "id": "d9deb0244c70",
+     "title": "Release 3.9.8: wheel, -any- alias, model card, changelog"
+    },
+    {
+     "date": "2026-07-10T16:03:28.000Z",
+     "id": "b090a93ca725",
+     "title": "Delete la_core_web_lg-3.9.5-py3-none-any.whl"
+    },
+    {
+     "date": "2026-07-03T12:13:09.000Z",
+     "id": "b28eb4ec67ee",
+     "title": "Update changelog for 3.9.6"
+    },
+    {
+     "date": "2026-07-03T12:13:09.000Z",
+     "id": "7187df2a68d8",
+     "title": "Update model card for 3.9.6"
+    },
+    {
+     "date": "2026-07-03T12:13:08.000Z",
+     "id": "96594f57731c",
+     "title": "Add lg 3.9.6 wheel (closing-quote segmentation fix + deponent fallback)"
+    },
+    {
+     "date": "2026-06-26T19:12:26.000Z",
+     "id": "5b4636c88442",
+     "title": "fix(deps): widen latincy-preprocess pin to <0.4.0 (allow 0.3.1); dedupe spacy"
+    },
+    {
+     "date": "2026-06-24T19:51:32.000Z",
+     "id": "67fda10dcf6e",
+     "title": "v3.9.5: bundle ~110 classical abbreviations + lemmatizer punctuation fix"
+    },
+    {
+     "date": "2026-06-17T19:33:43.000Z",
+     "id": "69b93a438669",
+     "title": "v3.9.4: ship updated wheel (abbreviation fix)"
+    },
+    {
+     "date": "2026-06-16T02:39:42.000Z",
+     "id": "bdd05f6ed69d",
+     "title": "v3.9.4: fix abbreviation sentence-segmentation regression"
+    },
+    {
+     "date": "2026-06-01T21:27:45.000Z",
+     "id": "b708d7c0170e",
+     "title": "v3.9.3: fix parenthetical segmentation; vendor token_fix/enclitic_splitter"
+    },
+    {
+     "date": "2026-05-31T15:56:42.000Z",
+     "id": "ce8b9a8d9067",
+     "title": "v3.9.2: align release (token_fix + enclitic_splitter); add CHANGELOG"
+    },
+    {
+     "date": "2026-03-25T01:39:51.000Z",
+     "id": "025948f5e1b8",
+     "title": "Initial release: clean wheel, correct deps (latincy-preprocess + la-latincy-lookups)"
+    },
+    {
+     "date": "2026-03-25T01:24:12.000Z",
+     "id": "4c47c2f6c43d",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-03-25T01:24:11.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "CHANGELOG.md",
+    "README.md",
+    "la_core_web_lg-3.9.6-py3-none-any.whl",
+    "la_core_web_lg-3.9.8-py3-none-any.whl",
+    "latincy-pipelines-v3_9-logo.png"
+   ],
+   "lastModified": "2026-09-18T17:59:45.000Z",
+   "private": false,
+   "status": 200,
+   "tags": [
+    "v3.9.5",
+    "v3.9.3",
+    "v3.9.2",
+    "v3.9.0",
+    "v3.9.6"
+   ]
+  },
+  "latincy/la_core_web_md": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-09-18T17:59:44.000Z",
+     "id": "45c9ac84afec",
+     "title": "Remove -any- alias: not a PEP 440 wheel filename; rejected by current pip and uv"
+    },
+    {
+     "date": "2026-09-18T17:58:17.000Z",
+     "id": "ad689c98ecb3",
+     "title": "Release 3.9.8: wheel, -any- alias, model card, changelog"
+    },
+    {
+     "date": "2026-07-03T12:12:49.000Z",
+     "id": "95e2ef08ecb6",
+     "title": "Update changelog for 3.9.6"
+    },
+    {
+     "date": "2026-07-03T12:12:49.000Z",
+     "id": "de244d5e696c",
+     "title": "Update model card for 3.9.6"
+    },
+    {
+     "date": "2026-07-03T12:12:48.000Z",
+     "id": "cf7498518e17",
+     "title": "Add md 3.9.6 wheel (closing-quote segmentation fix + deponent fallback)"
+    },
+    {
+     "date": "2026-06-26T19:12:06.000Z",
+     "id": "620f2bfede1f",
+     "title": "fix(deps): widen latincy-preprocess pin to <0.4.0 (allow 0.3.1); dedupe spacy"
+    },
+    {
+     "date": "2026-06-24T19:50:11.000Z",
+     "id": "a805caca823c",
+     "title": "v3.9.5: bundle ~110 classical abbreviations + lemmatizer punctuation fix"
+    },
+    {
+     "date": "2026-06-17T19:33:42.000Z",
+     "id": "20f7cfd41b46",
+     "title": "v3.9.4: ship updated wheel (abbreviation fix)"
+    },
+    {
+     "date": "2026-06-16T02:39:41.000Z",
+     "id": "cb7559a144ef",
+     "title": "v3.9.4: fix abbreviation sentence-segmentation regression"
+    },
+    {
+     "date": "2026-06-01T21:26:46.000Z",
+     "id": "c1a291d55841",
+     "title": "v3.9.3: fix parenthetical segmentation; vendor token_fix/enclitic_splitter"
+    },
+    {
+     "date": "2026-05-31T15:55:49.000Z",
+     "id": "ace122089050",
+     "title": "v3.9.2: align release (token_fix + enclitic_splitter); add CHANGELOG"
+    },
+    {
+     "date": "2026-03-25T01:39:50.000Z",
+     "id": "aa9245b084a5",
+     "title": "Initial release: clean wheel, correct deps (latincy-preprocess + la-latincy-lookups)"
+    },
+    {
+     "date": "2026-03-25T01:24:11.000Z",
+     "id": "333714eaafef",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-03-25T01:24:11.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "CHANGELOG.md",
+    "README.md",
+    "la_core_web_md-3.9.5-py3-none-any.whl",
+    "la_core_web_md-3.9.6-py3-none-any.whl",
+    "la_core_web_md-3.9.8-py3-none-any.whl",
+    "latincy-pipelines-v3_9-logo.png"
+   ],
+   "lastModified": "2026-09-18T17:59:44.000Z",
+   "private": false,
+   "status": 200,
+   "tags": [
+    "v3.9.5",
+    "v3.9.3",
+    "v3.9.2",
+    "v3.9.0",
+    "v3.9.6"
+   ]
+  },
+  "latincy/la_core_web_sm": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-09-18T17:59:44.000Z",
+     "id": "c433837a66f7",
+     "title": "Remove -any- alias: not a PEP 440 wheel filename; rejected by current pip and uv"
+    },
+    {
+     "date": "2026-09-18T17:58:12.000Z",
+     "id": "a2606c802678",
+     "title": "Release 3.9.8: wheel, -any- alias, model card, changelog"
+    },
+    {
+     "date": "2026-07-03T12:11:11.000Z",
+     "id": "16f286d56c02",
+     "title": "Update changelog for 3.9.6"
+    },
+    {
+     "date": "2026-07-03T12:11:10.000Z",
+     "id": "ddd2da3b8d4a",
+     "title": "Update model card for 3.9.6"
+    },
+    {
+     "date": "2026-07-03T12:11:07.000Z",
+     "id": "42b1910062f5",
+     "title": "Add sm 3.9.6 wheel (closing-quote segmentation fix + deponent fallback)"
+    },
+    {
+     "date": "2026-06-26T19:12:04.000Z",
+     "id": "361e7778d3b9",
+     "title": "fix(deps): widen latincy-preprocess pin to <0.4.0 (allow 0.3.1); dedupe spacy"
+    },
+    {
+     "date": "2026-06-24T19:49:50.000Z",
+     "id": "50bfe5d7a3eb",
+     "title": "v3.9.5: bundle ~110 classical abbreviations + lemmatizer punctuation fix"
+    },
+    {
+     "date": "2026-06-17T19:33:41.000Z",
+     "id": "2a648682beb8",
+     "title": "v3.9.4: ship updated wheel (abbreviation fix)"
+    },
+    {
+     "date": "2026-06-16T02:39:40.000Z",
+     "id": "196df6dc49ca",
+     "title": "v3.9.4: fix abbreviation sentence-segmentation regression"
+    },
+    {
+     "date": "2026-06-01T21:26:38.000Z",
+     "id": "e2ba5395b6dd",
+     "title": "v3.9.3: fix parenthetical segmentation; vendor token_fix/enclitic_splitter"
+    },
+    {
+     "date": "2026-05-31T15:55:33.000Z",
+     "id": "daee723a18f0",
+     "title": "v3.9.2: align release (token_fix + enclitic_splitter); add CHANGELOG"
+    },
+    {
+     "date": "2026-03-25T01:39:49.000Z",
+     "id": "121e030781c9",
+     "title": "Initial release: clean wheel, correct deps (latincy-preprocess + la-latincy-lookups)"
+    },
+    {
+     "date": "2026-03-25T01:24:11.000Z",
+     "id": "333714eaafef",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-03-25T01:24:11.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "CHANGELOG.md",
+    "README.md",
+    "la_core_web_sm-3.9.5-py3-none-any.whl",
+    "la_core_web_sm-3.9.6-py3-none-any.whl",
+    "la_core_web_sm-3.9.8-py3-none-any.whl",
+    "latincy-pipelines-v3_9-logo.png"
+   ],
+   "lastModified": "2026-09-18T17:59:44.000Z",
+   "private": false,
+   "status": 200,
+   "tags": [
+    "v3.9.5",
+    "v3.9.3",
+    "v3.9.2",
+    "v3.9.0",
+    "v3.9.6"
+   ]
+  },
+  "latincy/la_core_web_trf": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-10-25T12:34:35.000Z",
+     "id": "8e4accad1fd3",
+     "title": "la_core_web_trf 3.9.9: retrain on latin-bert v1.2.0 tokenizer"
+    },
+    {
+     "date": "2026-09-18T17:59:45.000Z",
+     "id": "6e83d95daaaf",
+     "title": "Remove -any- alias: not a PEP 440 wheel filename; rejected by current pip and uv"
+    },
+    {
+     "date": "2026-09-18T17:58:50.000Z",
+     "id": "b6c77215feed",
+     "title": "Release 3.9.8: wheel, -any- alias, model card, changelog"
+    },
+    {
+     "date": "2026-07-03T12:14:08.000Z",
+     "id": "72dc4f4b4539",
+     "title": "Update changelog for 3.9.6"
+    },
+    {
+     "date": "2026-07-03T12:14:07.000Z",
+     "id": "07f7f72643c3",
+     "title": "Update model card for 3.9.6"
+    },
+    {
+     "date": "2026-07-03T12:14:06.000Z",
+     "id": "5ca3b44ce620",
+     "title": "Add trf 3.9.6 wheel (closing-quote segmentation fix + deponent fallback)"
+    },
+    {
+     "date": "2026-06-26T19:20:36.000Z",
+     "id": "f526517cc2a3",
+     "title": "fix(deps): widen latincy-preprocess pin to <0.4.0 (allow 0.3.1); dedupe spacy"
+    },
+    {
+     "date": "2026-06-24T19:58:36.000Z",
+     "id": "db29c6a3fc32",
+     "title": "v3.9.5: bundle ~110 classical abbreviations + lemmatizer punctuation fix"
+    },
+    {
+     "date": "2026-06-17T19:33:43.000Z",
+     "id": "ca26a3bcc03c",
+     "title": "v3.9.4: ship updated wheel (abbreviation fix; restore .similarity())"
+    },
+    {
+     "date": "2026-06-16T02:39:53.000Z",
+     "id": "077886dceb11",
+     "title": "v3.9.4: fix abbreviation segmentation regression; restore .similarity()"
+    },
+    {
+     "date": "2026-06-02T17:15:13.000Z",
+     "id": "cc0d6e4e1c2d",
+     "title": "fix(v3.9.3): remove stale latincy-enclitic dep from wheel metadata"
+    },
+    {
+     "date": "2026-06-02T15:32:54.000Z",
+     "id": "c6b1d557b465",
+     "title": "hot patch v3.9.3: add .similarity() hook + fix enclitic splitting"
+    },
+    {
+     "date": "2026-06-01T21:31:36.000Z",
+     "id": "16972e9faf36",
+     "title": "v3.9.3: fix parenthetical segmentation; vendor token_fix/enclitic_splitter"
+    },
+    {
+     "date": "2026-05-31T16:01:54.000Z",
+     "id": "44eeba9fd06a",
+     "title": "v3.9.2: align release (token_fix + enclitic_splitter); add CHANGELOG"
+    },
+    {
+     "date": "2026-03-25T01:39:51.000Z",
+     "id": "9208ad6c7ac5",
+     "title": "Initial release: clean wheel, correct deps (latincy-preprocess + la-latincy-lookups)"
+    },
+    {
+     "date": "2026-03-25T01:24:12.000Z",
+     "id": "4c47c2f6c43d",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-03-25T01:24:12.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "CHANGELOG.md",
+    "README.md",
+    "la_core_web_trf-3.9.5-py3-none-any.whl",
+    "la_core_web_trf-3.9.6-py3-none-any.whl",
+    "la_core_web_trf-3.9.8-py3-none-any.whl",
+    "la_core_web_trf-3.9.9-py3-none-any.whl",
+    "latincy-pipelines-v3_9-logo.png"
+   ],
+   "lastModified": "2026-10-25T12:34:35.000Z",
+   "private": false,
+   "status": 200,
+   "tags": [
+    "v3.9.5",
+    "v3.9.3",
+    "v3.9.2",
+    "v3.9.1",
+    "v3.9.6"
+   ]
+  },
+  "latincy/la_flair_latincy": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-03-23T01:27:05.000Z",
+     "id": "19c3c9c50e1d",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-23T01:25:36.000Z",
+     "id": "4f48d5d10843",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-14T13:03:00.000Z",
+     "id": "4b1674e0abb7",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-14T13:02:56.000Z",
+     "id": "74d606ce7638",
+     "title": "Upload models/lemmatizer/best-model.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-03-14T13:02:04.000Z",
+     "id": "93603cd2a3ee",
+     "title": "Upload models/pos/best-model.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-25T21:49:12.000Z",
+     "id": "14b96522dd8a",
+     "title": "Sync cross-framework table: test scores, all 6 rows, consistent headers"
+    },
+    {
+     "date": "2026-02-25T21:41:24.000Z",
+     "id": "20c55769b662",
+     "title": "Update model card with test scores"
+    },
+    {
+     "date": "2026-02-24T12:31:28.000Z",
+     "id": "60e5475f1225",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-24T12:31:28.000Z",
+     "id": "90e4188aeb40",
+     "title": "Upload LICENSE with huggingface_hub"
+    },
+    {
+     "date": "2026-02-24T12:31:27.000Z",
+     "id": "d1f050fc3f83",
+     "title": "Upload models/lm-backward/best-lm.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-24T12:31:16.000Z",
+     "id": "1df6b910cefa",
+     "title": "Upload models/lm-forward/best-lm.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-24T12:31:06.000Z",
+     "id": "fc4520bc3b6a",
+     "title": "Upload models/lemmatizer/best-model.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-24T12:28:51.000Z",
+     "id": "9496035543de",
+     "title": "Upload models/ner/best-model.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-24T12:24:45.000Z",
+     "id": "94e81296f400",
+     "title": "Upload models/pos/best-model.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-24T12:17:47.000Z",
+     "id": "082cbfbae845",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-02-24T12:17:47.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "models/lemmatizer/best-model.pt",
+    "models/lm-backward/best-lm.pt",
+    "models/lm-forward/best-lm.pt",
+    "models/ner/best-model.pt",
+    "models/pos/best-model.pt"
+   ],
+   "lastModified": "2026-03-23T01:27:05.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "latincy/la_senter": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-08-14T16:10:10.000Z",
+     "id": "3e950ecdff3a",
+     "title": "Upload la_senter-3.9.3-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-05-31T15:45:58.000Z",
+     "id": "246aab8f9531",
+     "title": "Release la_senter 3.9.2: add token_fix component (factory-registered, bundled fixers.py)"
+    },
+    {
+     "date": "2026-02-24T04:19:07.000Z",
+     "id": "4465fd3eff85",
+     "title": "Update model card for 3.9.0"
+    },
+    {
+     "date": "2026-02-24T04:19:06.000Z",
+     "id": "b567492741e9",
+     "title": "Add la_senter 3.9.0 wheel"
+    },
+    {
+     "date": "2024-12-27T04:32:35.000Z",
+     "id": "2e923c1c38b1",
+     "title": "Rename la_senter-any-py3-none-any.whl to la_senter-3.8.0-py3-none-any.whl"
+    },
+    {
+     "date": "2024-12-27T04:31:47.000Z",
+     "id": "41fa8242b2a9",
+     "title": "Update spaCy pipeline"
+    },
+    {
+     "date": "2024-12-27T04:31:44.000Z",
+     "id": "62a41826a3c2",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2024-12-27T04:31:43.000Z",
+   "eval": {
+    "_file": "meta.json",
+    "senter_loss": 36.2972924755,
+    "sents_f": 0.9965670436,
+    "sents_p": 0.9955618318,
+    "sents_r": 0.9975742874
+   },
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "config.cfg",
+    "fixers.py",
+    "la_senter-3.8.0-py3-none-any.whl",
+    "la_senter-3.9.0-py3-none-any.whl",
+    "la_senter-3.9.2-py3-none-any.whl",
+    "la_senter-3.9.3-py3-none-any.whl",
+    "meta.json",
+    "senter/cfg",
+    "senter/model",
+    "tokenizer",
+    "vocab/key2row",
+    "vocab/lookups.bin",
+    "vocab/strings.json",
+    "vocab/vectors",
+    "vocab/vectors.cfg"
+   ],
+   "lastModified": "2026-08-14T16:10:10.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "latincy/la_stanza_latincy": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-04-16T18:28:22.000Z",
+     "id": "ed345f226924",
+     "title": "Upload la/backward_charlm/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T18:28:19.000Z",
+     "id": "31554b703209",
+     "title": "Upload la/forward_charlm/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T18:28:15.000Z",
+     "id": "6fe19b866fdc",
+     "title": "Upload la/pretrain/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T18:28:12.000Z",
+     "id": "ac8bd4892146",
+     "title": "Upload la/ner/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T18:28:09.000Z",
+     "id": "fe67c94456fc",
+     "title": "Upload la/depparse/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T18:28:05.000Z",
+     "id": "279d75f3bdde",
+     "title": "Upload la/lemma/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T18:28:04.000Z",
+     "id": "56c3296e9127",
+     "title": "Upload la/pos/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T18:28:01.000Z",
+     "id": "42e9f2327e17",
+     "title": "Upload la/tokenize/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T18:27:56.000Z",
+     "id": "b34f4c016af6",
+     "title": "Remove obsolete models/ folder (v0.3.1: layout moved to la/)"
+    },
+    {
+     "date": "2026-04-16T17:25:55.000Z",
+     "id": "6a5bc75566a8",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T17:25:55.000Z",
+     "id": "4e970076a5b6",
+     "title": "Upload resources.json with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T17:25:38.000Z",
+     "id": "e19f318398bd",
+     "title": "Upload models/lemma/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-04-16T17:25:37.000Z",
+     "id": "4a4670166a14",
+     "title": "Upload models/pos/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-03-23T01:23:12.000Z",
+     "id": "8cf3f12b2aa9",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-23T01:21:18.000Z",
+     "id": "0ea19d0a4135",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-23T01:18:24.000Z",
+     "id": "8fb3235ec5b2",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-23T01:10:31.000Z",
+     "id": "d6b527bf4b62",
+     "title": "Upload resources.json with huggingface_hub"
+    },
+    {
+     "date": "2026-03-23T01:10:14.000Z",
+     "id": "7c013377ced2",
+     "title": "Upload models/lemma/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-03-23T01:08:59.000Z",
+     "id": "bf2b51ab293a",
+     "title": "Upload models/pos/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-03-21T12:35:31.000Z",
+     "id": "e1a01e15aeeb",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-13T18:55:24.000Z",
+     "id": "60b9b1438151",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-13T18:55:22.000Z",
+     "id": "10a4259f1b96",
+     "title": "Upload resources.json with huggingface_hub"
+    },
+    {
+     "date": "2026-03-13T18:55:08.000Z",
+     "id": "776cb2b7954e",
+     "title": "Upload models/depparse/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-03-13T18:54:58.000Z",
+     "id": "a73fd9d233af",
+     "title": "Upload models/lemma/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-03-13T18:54:54.000Z",
+     "id": "55ea0d37d762",
+     "title": "Upload models/pos/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-03-13T18:54:46.000Z",
+     "id": "16c95a62b205",
+     "title": "Upload models/tokenize/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-25T21:41:24.000Z",
+     "id": "bfa4384eed27",
+     "title": "Update model card with test scores"
+    },
+    {
+     "date": "2026-02-24T22:24:33.000Z",
+     "id": "0fc055157f40",
+     "title": "Fix UDPipe portability description in cross-framework comparison"
+    },
+    {
+     "date": "2026-02-24T22:14:05.000Z",
+     "id": "aaea4cf5e2b3",
+     "title": "Restore YAML frontmatter with updated README"
+    },
+    {
+     "date": "2026-02-24T22:13:50.000Z",
+     "id": "8633cbc4f411",
+     "title": "Update cross-framework comparison table with Flair scores"
+    },
+    {
+     "date": "2026-02-22T19:06:04.000Z",
+     "id": "58b0134dd15e",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-22T19:06:03.000Z",
+     "id": "f219ef17d5d4",
+     "title": "Upload resources.json with huggingface_hub"
+    },
+    {
+     "date": "2026-02-22T19:05:10.000Z",
+     "id": "9da2136d8335",
+     "title": "Upload models/lemma/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-22T19:04:57.000Z",
+     "id": "59134ce0b94e",
+     "title": "Upload models/pos/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:14:30.000Z",
+     "id": "a0304bb7434e",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:14:28.000Z",
+     "id": "f80a37af7a20",
+     "title": "Upload LICENSE with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:14:27.000Z",
+     "id": "2d7bfeeb4d71",
+     "title": "Upload resources.json with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:14:26.000Z",
+     "id": "b260ac830a24",
+     "title": "Upload models/backward_charlm/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:12:22.000Z",
+     "id": "b2f3bb4ac489",
+     "title": "Upload models/forward_charlm/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:10:22.000Z",
+     "id": "b9266718a0a1",
+     "title": "Upload models/pretrain/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:08:44.000Z",
+     "id": "2e6e877f071d",
+     "title": "Upload models/ner/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:07:10.000Z",
+     "id": "f7d214a7b093",
+     "title": "Upload models/depparse/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:05:27.000Z",
+     "id": "18ea1dbb343b",
+     "title": "Upload models/lemma/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:05:00.000Z",
+     "id": "e3f3fc9fb160",
+     "title": "Upload models/pos/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:03:30.000Z",
+     "id": "177c5c3e962b",
+     "title": "Upload models/tokenize/latincy.pt with huggingface_hub"
+    },
+    {
+     "date": "2026-02-20T00:03:20.000Z",
+     "id": "38dc5a1065de",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-02-20T00:03:20.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "la/backward_charlm/latincy.pt",
+    "la/depparse/latincy.pt",
+    "la/forward_charlm/latincy.pt",
+    "la/lemma/latincy.pt",
+    "la/ner/latincy.pt",
+    "la/pos/latincy.pt",
+    "la/pretrain/latincy.pt",
+    "la/tokenize/latincy.pt",
+    "resources.json"
+   ],
+   "lastModified": "2026-04-16T18:28:22.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "latincy/la_udpipe_latincy": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-03-23T01:25:34.000Z",
+     "id": "aa62701d7244",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-06T18:06:56.000Z",
+     "id": "1a99929edccc",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-06T18:06:54.000Z",
+     "id": "55f8f4351b38",
+     "title": "Upload la_udpipe_latincy_multi.udpipe with huggingface_hub"
+    },
+    {
+     "date": "2026-02-25T21:49:13.000Z",
+     "id": "47d0e5b221e9",
+     "title": "Sync cross-framework table: test scores, all 6 rows, consistent headers"
+    },
+    {
+     "date": "2026-02-25T21:41:25.000Z",
+     "id": "8a62c160988e",
+     "title": "Update model card with test scores"
+    },
+    {
+     "date": "2026-02-24T22:14:06.000Z",
+     "id": "00c932d29eed",
+     "title": "Restore YAML frontmatter with updated README"
+    },
+    {
+     "date": "2026-02-24T22:13:51.000Z",
+     "id": "21476b10bb19",
+     "title": "Update cross-framework comparison table with Flair and Stanza scores"
+    },
+    {
+     "date": "2026-02-18T21:33:52.000Z",
+     "id": "f2348450af0a",
+     "title": "Upload LICENSE with huggingface_hub"
+    },
+    {
+     "date": "2026-02-18T21:33:52.000Z",
+     "id": "fd1e7580ad1c",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-18T21:33:51.000Z",
+     "id": "5777015791d9",
+     "title": "Upload la_udpipe_latincy_multi.udpipe with huggingface_hub"
+    },
+    {
+     "date": "2026-02-18T21:32:56.000Z",
+     "id": "5c3ccce934f3",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-02-18T21:32:56.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "la_udpipe_latincy_multi.udpipe"
+   ],
+   "lastModified": "2026-03-23T01:25:34.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "latincy/la_vectors": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-05-18T19:04:20.000Z",
+     "id": "be5396cf7d70",
+     "title": "Initial upload: la_vectors v3.9.0"
+    }
+   ],
+   "createdAt": "2026-05-18T18:16:32.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "fasttext/la_fasttext_cbow_300_10.bin",
+    "fasttext/la_fasttext_cbow_300_10.vec",
+    "glove/la_glove_300.txt",
+    "word2vec/la_w2v_cbow_300_10.txt"
+   ],
+   "lastModified": "2026-05-18T19:04:20.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "latincy/la_vectors_floret_lg": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-06-12T19:44:27.000Z",
+     "id": "0a34faa819c5",
+     "title": "v3.10.0: floret lg vectors retrained on v3.10 corpus; updated model card (wheel)"
+    },
+    {
+     "date": "2026-06-12T19:42:07.000Z",
+     "id": "347c1d9e53ff",
+     "title": "v3.10.0: floret lg vectors retrained on v3.10 corpus; updated model card (model files + README)"
+    },
+    {
+     "date": "2026-02-14T14:18:01.000Z",
+     "id": "a7972315d2e8",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-14T14:17:50.000Z",
+     "id": "25ac77d0541a",
+     "title": "Upload la_vectors_floret_lg-3.9.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2024-12-27T03:34:00.000Z",
+     "id": "c06b81d3db33",
+     "title": "Rename la_vectors_floret_lg-any-py3-none-any.whl to la_vectors_floret_lg-3.8.0-py3-none-any.whl"
+    },
+    {
+     "date": "2024-12-27T00:55:32.000Z",
+     "id": "bc4112a1b415",
+     "title": "Update spaCy pipeline"
+    },
+    {
+     "date": "2023-12-13T19:04:32.000Z",
+     "id": "22112dde7fec",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-12-13T19:03:45.000Z",
+     "id": "0bdb70c670ef",
+     "title": "Upload la_vectors_floret_lg-3.7.2-py3-none-any.whl"
+    },
+    {
+     "date": "2023-07-08T01:37:04.000Z",
+     "id": "3ef41e46da77",
+     "title": "Upload la_vectors_floret_lg-3.6.0-py3-none-any.whl"
+    },
+    {
+     "date": "2023-07-08T00:57:16.000Z",
+     "id": "5a29b01beb29",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-05-05T15:14:19.000Z",
+     "id": "c0e2eae8b4ab",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-05-04T19:17:12.000Z",
+     "id": "d3afbfef51f9",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-04-27T22:59:44.000Z",
+     "id": "89185aceeaa5",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-04-27T22:55:24.000Z",
+     "id": "0611033bc2ba",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-04-27T22:54:30.000Z",
+     "id": "5112b055a1dd",
+     "title": "Create README.md"
+    },
+    {
+     "date": "2023-04-27T22:49:43.000Z",
+     "id": "09fa0fe914d9",
+     "title": "Upload la_vectors_floret_lg-3.5.2-py3-none-any.whl"
+    },
+    {
+     "date": "2023-04-27T22:42:15.000Z",
+     "id": "f99e0cb52360",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2023-04-27T22:42:15.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "config.cfg",
+    "la_vectors_floret_lg-3.10.0-py3-none-any.whl",
+    "la_vectors_floret_lg-3.5.2-py3-none-any.whl",
+    "la_vectors_floret_lg-3.6.0-py3-none-any.whl",
+    "la_vectors_floret_lg-3.7.2-py3-none-any.whl",
+    "la_vectors_floret_lg-3.8.0-py3-none-any.whl",
+    "la_vectors_floret_lg-3.9.0-py3-none-any.whl",
+    "meta.json",
+    "tokenizer",
+    "vocab/key2row",
+    "vocab/lookups.bin",
+    "vocab/strings.json",
+    "vocab/vectors",
+    "vocab/vectors.cfg"
+   ],
+   "lastModified": "2026-06-12T19:44:27.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "latincy/la_vectors_floret_md": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-06-12T19:51:49.000Z",
+     "id": "63c931808057",
+     "title": "v3.10.0: floret md vectors retrained on v3.10 corpus; updated model card (wheel)"
+    },
+    {
+     "date": "2026-06-12T19:51:19.000Z",
+     "id": "27b92770fe99",
+     "title": "v3.10.0: floret md vectors retrained on v3.10 corpus; updated model card (model files + README)"
+    },
+    {
+     "date": "2026-02-14T14:17:57.000Z",
+     "id": "f046d61f8aa6",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-02-14T14:14:23.000Z",
+     "id": "75dad422cd7c",
+     "title": "Upload la_vectors_floret_md-3.9.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2024-12-27T03:33:36.000Z",
+     "id": "814e71f41232",
+     "title": "Rename la_vectors_floret_md-any-py3-none-any.whl to la_vectors_floret_md-3.8.0-py3-none-any.whl"
+    },
+    {
+     "date": "2024-12-27T00:52:23.000Z",
+     "id": "d9b7e047aa9d",
+     "title": "Update spaCy pipeline"
+    },
+    {
+     "date": "2023-12-13T19:06:33.000Z",
+     "id": "bfddc148e8b0",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-12-13T19:06:06.000Z",
+     "id": "fc4b8272d538",
+     "title": "Upload la_vectors_floret_md-3.7.2-py3-none-any.whl"
+    },
+    {
+     "date": "2023-07-07T16:30:32.000Z",
+     "id": "7ddb27d638ed",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-07-07T16:29:05.000Z",
+     "id": "71bd4f2ee2fe",
+     "title": "Upload la_vectors_floret_md-3.6.0-py3-none-any.whl"
+    },
+    {
+     "date": "2023-05-05T15:14:41.000Z",
+     "id": "27af9f282024",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-05-04T19:16:54.000Z",
+     "id": "e2bad4bcb88d",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2023-05-04T19:15:04.000Z",
+     "id": "82b2af9fc0c3",
+     "title": "Upload la_vectors_floret_md-3.5.2-py3-none-any.whl"
+    },
+    {
+     "date": "2023-04-29T21:37:00.000Z",
+     "id": "003ad8ce6973",
+     "title": "Create README.md"
+    },
+    {
+     "date": "2023-04-29T21:35:37.000Z",
+     "id": "3148c24b461c",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2023-04-29T21:35:36.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "config.cfg",
+    "la_vectors_floret_md-3.10.0-py3-none-any.whl",
+    "la_vectors_floret_md-3.5.2-py3-none-any.whl",
+    "la_vectors_floret_md-3.6.0-py3-none-any.whl",
+    "la_vectors_floret_md-3.7.2-py3-none-any.whl",
+    "la_vectors_floret_md-3.8.0-py3-none-any.whl",
+    "la_vectors_floret_md-3.9.0-py3-none-any.whl",
+    "meta.json",
+    "tokenizer",
+    "vocab/key2row",
+    "vocab/lookups.bin",
+    "vocab/strings.json",
+    "vocab/vectors",
+    "vocab/vectors.cfg"
+   ],
+   "lastModified": "2026-06-12T19:51:49.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "latincy/latin-bert": {
+   "branches": [
+    "main",
+    "json-tokenizer"
+   ],
+   "commits": [
+    {
+     "date": "2026-11-12T22:25:25.000Z",
+     "id": "c559e755e546",
+     "title": "release: v1.2.1 — tokenizers 0.23 BertProcessing fix"
+    },
+    {
+     "date": "2026-11-12T22:17:50.000Z",
+     "id": "bad2e30884c0",
+     "title": "fix: pass BertProcessing args positionally for tokenizers 0.23"
+    },
+    {
+     "date": "2026-10-22T17:11:34.000Z",
+     "id": "05b7e7f700f3",
+     "title": "docs: add MIT LICENSE (copyright line as upstream dbamman/latin-bert)"
+    },
+    {
+     "date": "2026-10-22T16:42:20.000Z",
+     "id": "2a08f55f8418",
+     "title": "docs: card license apache-2.0 -> MIT (matches upstream dbamman/latin-bert)"
+    },
+    {
+     "date": "2026-10-22T16:30:23.000Z",
+     "id": "307ac742c143",
+     "title": "release: v1.2.0 — promote no-code tokenizer (drop rc1 prerelease note)"
+    },
+    {
+     "date": "2026-07-15T14:49:55.000Z",
+     "id": "df2aa0e7f7ff",
+     "title": "release: mark branch as v1.2.0-rc1 prerelease with revision-pinned install note"
+    },
+    {
+     "date": "2026-07-15T14:39:19.000Z",
+     "id": "85f785b1cf68",
+     "title": "docs: frame OOA->[UNK] divergence as improvement, still reported as difference"
+    },
+    {
+     "date": "2026-07-15T14:32:41.000Z",
+     "id": "dec104b2673f",
+     "title": "test+docs: prove case-study replication via ID-identity on the actual datasets"
+    },
+    {
+     "date": "2026-07-15T14:26:08.000Z",
+     "id": "36c8f15111f9",
+     "title": "feat: pure-JSON tokenizer — trust_remote_code no longer required (v1.2.0)"
+    },
+    {
+     "date": "2026-07-15T11:30:33.000Z",
+     "id": "e71173a43c94",
+     "title": "docs: note full case-study reproduction (incl. contextual-NN) in v1.1.2 changelog"
+    },
+    {
+     "date": "2026-07-15T11:20:16.000Z",
+     "id": "a313dd259460",
+     "title": "test: make contextual-NN case study faithful to paper §4.4"
+    },
+    {
+     "date": "2026-07-11T15:36:30.000Z",
+     "id": "9cfba71aca8a",
+     "title": "release: v1.1.2 — full-string tokenization fix (eval-confirmed)"
+    },
+    {
+     "date": "2026-07-11T15:17:28.000Z",
+     "id": "f93e321c9c06",
+     "title": "test: full-string eval harness + reporter reproduction"
+    },
+    {
+     "date": "2026-07-11T15:10:58.000Z",
+     "id": "b8d6c6cb569c",
+     "title": "fix: whitespace-split before subword encoding (full-string tokenization)"
+    },
+    {
+     "date": "2026-03-18T20:48:01.000Z",
+     "id": "f25becde782b",
+     "title": "fix: apply do_lower_case to root-level HF-facing files"
+    },
+    {
+     "date": "2026-03-18T20:09:52.000Z",
+     "id": "c7b1be1da709",
+     "title": "fix: add do_lower_case=True to tokenizer (v1.1.1)"
+    },
+    {
+     "date": "2026-03-16T14:10:01.000Z",
+     "id": "8c959a5e3a90",
+     "title": "fix: revert tie_word_embeddings — safetensors needs tying for decoder weights"
+    },
+    {
+     "date": "2026-03-16T14:08:36.000Z",
+     "id": "a533a28226bf",
+     "title": "Adding `safetensors` variant of this model (#1)"
+    },
+    {
+     "date": "2026-03-16T14:04:37.000Z",
+     "id": "a28569072bbc",
+     "title": "chore: gitignore cluster/, track test vocab fixture"
+    },
+    {
+     "date": "2026-03-16T14:03:16.000Z",
+     "id": "86e09902b830",
+     "title": "fix: add decode/unescape to fast tokenizer, silence tied-weights warning"
+    },
+    {
+     "date": "2026-03-16T13:47:22.000Z",
+     "id": "7a1b6780706c",
+     "title": "docs: remove blockquote from experimental note"
+    },
+    {
+     "date": "2026-03-16T13:46:03.000Z",
+     "id": "0f1214f520d7",
+     "title": "docs: add links to original repo and paper, add experimental proviso"
+    },
+    {
+     "date": "2026-03-15T00:11:24.000Z",
+     "id": "ed6af902f49d",
+     "title": "feat: add LatinBertTokenizerFast with word_ids() support"
+    },
+    {
+     "date": "2026-03-14T23:59:36.000Z",
+     "id": "6d20995952ee",
+     "title": "chore: re-upload model weights (pytorch_model.bin)"
+    },
+    {
+     "date": "2026-03-14T23:56:43.000Z",
+     "id": "872519eff8bf",
+     "title": "chore: add HF model repo files (config, tokenizer, encoder, README)"
+    },
+    {
+     "date": "2026-03-14T17:46:08.000Z",
+     "id": "f04d50f12509",
+     "title": "refactor: extract shared case study utils and move data to tracked paths"
+    },
+    {
+     "date": "2026-03-12T21:23:27.000Z",
+     "id": "2c07f6cb0e2a",
+     "title": "fix: handle >512 token sentences and add MPS device support"
+    },
+    {
+     "date": "2026-03-12T20:50:49.000Z",
+     "id": "35105173e2a4",
+     "title": "test: add contextual nearest neighbors case study (Bamman & Burns §4.4)"
+    },
+    {
+     "date": "2026-03-12T04:15:27.000Z",
+     "id": "8af2caa1463b",
+     "title": "feat: make benchmarks model-agnostic with --model-path option"
+    },
+    {
+     "date": "2026-03-12T03:57:35.000Z",
+     "id": "bb53c05660d7",
+     "title": "chore: register pytest slow marker"
+    },
+    {
+     "date": "2026-03-12T03:55:55.000Z",
+     "id": "73784ba19fae",
+     "title": "test: add WSD case study reproduction (Bamman & Burns Table 2)"
+    },
+    {
+     "date": "2026-03-12T03:18:36.000Z",
+     "id": "bbde9737da25",
+     "title": "test: add POS tagging case study reproduction (Bamman & Burns Table 1)"
+    },
+    {
+     "date": "2026-03-12T02:19:50.000Z",
+     "id": "c5bfe4cf402f",
+     "title": "test: add infilling case study reproduction (Bamman & Burns Table 3)"
+    },
+    {
+     "date": "2026-03-12T00:55:10.000Z",
+     "id": "ce59834da8a0",
+     "title": "Fix tokenizer ID offset: reserve IDs 0-4 for BERT special tokens"
+    },
+    {
+     "date": "2026-03-11T21:38:34.000Z",
+     "id": "68d8806e9983",
+     "title": "Initial: HF-compatible Latin BERT tokenizer (Bamman & Burns 2020)"
+    }
+   ],
+   "createdAt": "2026-03-11T22:17:25.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    ".gitignore",
+    ".python-version",
+    "LICENSE",
+    "README.md",
+    "config.json",
+    "data/case_studies/infilling/emendation_filtered.txt",
+    "data/case_studies/wsd/latin.sense.data",
+    "latin.subword.encoder",
+    "model.safetensors",
+    "pyproject.toml",
+    "pytorch_model.bin",
+    "scripts/build_tokenizer_json.py",
+    "src/latincy_latinbert/__init__.py",
+    "src/latincy_latinbert/tokenization_latin_bert.py",
+    "src/latincy_latinbert/tokenizer_config.json",
+    "tests/case_study_utils.py",
+    "tests/conftest.py",
+    "tests/latin.subword.encoder",
+    "tests/test_bug_reports.py",
+    "tests/test_contextual_nn.py",
+    "tests/test_infilling.py",
+    "tests/test_pos_tagging.py",
+    "tests/test_tokenizer.py",
+    "tests/test_tokenizer_fast.py",
+    "tests/test_tokenizer_json.py",
+    "tests/test_wsd.py",
+    "tokenization_latin_bert.py",
+    "tokenization_latin_bert_fast.py",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "uv.lock"
+   ],
+   "lastModified": "2026-11-12T22:25:25.000Z",
+   "private": false,
+   "status": 200,
+   "tags": [
+    "v1.1.1",
+    "v1.1.2",
+    "v1.2.0",
+    "v1.2.0-rc1"
+   ]
+  },
+  "latincy/latincy-diacritics": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2026-03-23T18:48:47.000Z",
+     "id": "f7430ce79317",
+     "title": "Upload latincy_diacritics-0.1.0-py3-none-any.whl with huggingface_hub"
+    },
+    {
+     "date": "2026-03-20T00:49:54.000Z",
+     "id": "96b39221f12c",
+     "title": "Update install instructions to use HF-hosted wheel"
+    },
+    {
+     "date": "2026-03-20T00:49:52.000Z",
+     "id": "811d9fee8f04",
+     "title": "Add installable wheel with bundled model"
+    },
+    {
+     "date": "2026-03-19T22:49:44.000Z",
+     "id": "5469046bb400",
+     "title": "Update model card: add co-author, remove spaCy example"
+    },
+    {
+     "date": "2026-03-11T21:37:53.000Z",
+     "id": "ae6cfbabb32c",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-11T21:37:35.000Z",
+     "id": "04f3ea79b1e3",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-11T21:35:15.000Z",
+     "id": "b4bd464a7959",
+     "title": "Upload README.md with huggingface_hub"
+    },
+    {
+     "date": "2026-03-11T21:33:51.000Z",
+     "id": "8c499c33d5fe",
+     "title": "Upload folder using huggingface_hub"
+    },
+    {
+     "date": "2026-03-11T21:33:16.000Z",
+     "id": "90aaf2f608dc",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2026-03-11T21:33:15.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "charset.json",
+    "classifier.pt",
+    "encoder/config.json",
+    "encoder/model.safetensors",
+    "latincy_diacritics-0.1.0-py3-none-any.whl"
+   ],
+   "lastModified": "2026-03-23T18:48:47.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  },
+  "latincy/latincy-macronizer": {
+   "status": 401
+  },
+  "latincy/latincy-w2v": {
+   "branches": [
+    "main"
+   ],
+   "commits": [
+    {
+     "date": "2025-07-31T14:27:08.000Z",
+     "id": "ec1499f987c3",
+     "title": "Update evaluation metrics"
+    },
+    {
+     "date": "2025-02-13T20:35:37.000Z",
+     "id": "838246562bbd",
+     "title": "Upload 12 files"
+    },
+    {
+     "date": "2025-02-13T19:32:20.000Z",
+     "id": "9501d084a0ac",
+     "title": "Update README.md"
+    },
+    {
+     "date": "2025-02-13T19:31:34.000Z",
+     "id": "579bfe5d3da3",
+     "title": "initial commit"
+    }
+   ],
+   "createdAt": "2025-02-13T19:31:34.000Z",
+   "eval": null,
+   "files": [
+    ".gitattributes",
+    "README.md",
+    "latincy_w2v-CBOW-100-10-0_0_2.txt",
+    "latincy_w2v-CBOW-100-5-0_0_2.txt",
+    "latincy_w2v-CBOW-300-10-0_0_2.txt",
+    "latincy_w2v-CBOW-300-5-0_0_2.txt",
+    "latincy_w2v-CBOW-50-10-0_0_2.txt",
+    "latincy_w2v-CBOW-50-5-0_0_2.txt",
+    "latincy_w2v-SG-100-10-0_0_2.txt",
+    "latincy_w2v-SG-100-5-0_0_2.txt",
+    "latincy_w2v-SG-300-10-0_0_2.txt",
+    "latincy_w2v-SG-300-5-0_0_2.txt",
+    "latincy_w2v-SG-50-10-0_0_2.txt",
+    "latincy_w2v-SG-50-5-0_0_2.txt"
+   ],
+   "lastModified": "2025-07-31T14:27:08.000Z",
+   "private": false,
+   "status": 200,
+   "tags": []
+  }
+ }
+}

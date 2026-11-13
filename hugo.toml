@@ -1,0 +1,41 @@
+baseURL = 'https://latincy.github.io/latincy-website/'
+locale = 'en-US'
+title = 'LatinCy'
+theme = 'latincy'
+enableRobotsTXT = true
+capitalizeListTitles = false
+
+[params]
+  tagline = 'Industrial-strength NLP for Latin'
+  description = 'spaCy models, datasets, and tools for Latin natural language processing'
+
+[taxonomies]
+  line = 'lines'
+  language = 'languages'
+  kind = 'kinds'
+  tag = 'tags'
+
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
+
+[menus]
+  [[menus.main]]
+    name = 'Catalog'
+    pageRef = '/catalog'
+    weight = 10
+  [[menus.main]]
+    name = 'Lines'
+    pageRef = '/lines'
+    weight = 20
+  [[menus.main]]
+    name = 'Forthcoming'
+    pageRef = '/forthcoming'
+    weight = 30
+  [[menus.main]]
+    name = 'Press'
+    pageRef = '/press'
+    weight = 40
+
+[markup.goldmark.renderer]
+  unsafe = true

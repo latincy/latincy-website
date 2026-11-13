@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section>
+  <h1>Forthcoming</h1>
+  {{ $sched := hugo.Data.schedule }}
+  {{ $today := now.Format "2006-01-02" }}
+  {{ range $sched.slots }}
+  {{ $d := time.Format "2006-01-02" .date }}
+  {{ if ge $d $today }}
+  <section class="slot">
+    <h2><time datetime="{{ $d }}">{{ time.Format "January 2, 2006" .date }}</time>{{ if not .approved }} <span class="flag">proposed</span>{{ end }}</h2>
+    {{ partial "schedule-items.html" .items }}
+  </section>
+  {{ end }}
+  {{ end }}
+  {{ with $sched.queue }}
+  <section class="slot">
+    <h2>Unscheduled</h2>
+    {{ partial "schedule-items.html" . }}
+  </section>
+  {{ end }}
+  {{ with where hugo.Data.unnumbered.albums "status" "advance" }}
+  <section class="slot">
+    <h2>Advance pressings</h2>
+    <ul class="slate">{{ range . }}{{ $t := .title }}{{ range .pressings }}<li><code>{{ $t }} ({{ .version }})</code> <a href="{{ .source }}">source</a> · {{ time.Format "2006-01-02" .date }}</li>{{ end }}{{ end }}</ul>
+  </section>
+  {{ end }}
+</section>
+{{ end }}

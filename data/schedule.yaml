@@ -1,0 +1,42 @@
+# LatinCy release calendar. Single source for /forthcoming/ and `catalog.py schedule`.
+# release_day: nth weekday of each month (weekday: Mon=0 … Sun=6).
+# Slots proposed from DEV_PLAN targets; approved by Patrick 2026-10-01.
+# Item status: slated | ready | shipped | slipped | blocked.  Catalog numbers are assigned at release, never here.
+
+release_day: {nth: 3, weekday: 1}   # third Tuesday
+
+slots:
+  - date: 2026-10-20
+    approved: true
+    items:
+      - {line: latincy-lexicon, version: "0.13.0", repo: latincy-lexicon, status: shipped, shipped_as: "LAT-027"}
+      - {line: latincy-readers, version: "1.9.x", repo: latincy-readers, status: shipped, shipped_as: "LAT-018"}
+      - {line: latincy-vocab, version: "0.4.0", repo: latincy-vocab, status: shipped, shipped_as: "LAT-031"}
+      - {line: grc_vectors_floret, version: "3.8.3", repo: latincy-grc-vectors, status: ready}
+  - date: 2026-11-17
+    approved: true
+    items:
+      - {line: latincy-ner, version: "0.4.0", repo: latincy-ner, status: slated}
+      - {line: latincy-wsd, version: "0.1.0", repo: latincy-wsd, status: slated}
+      - {line: grc_dep_web, version: "3.8.5", repo: latincy-grc-pipelines, status: slated}
+      - {line: la_flair_latincy, version: "0.4", repo: latincy-flair, status: ready}
+      - {line: latincy-vocab, version: "0.5.0", repo: latincy-vocab, status: slated}
+  - date: 2026-12-15
+    approved: false
+    items:
+      - {line: latincy-ner, version: "0.4.1", repo: latincy-ner, status: slated}
+      - {line: latincy-nel, version: "0.1.0", repo: latincy-nel, status: slated}
+
+# Not yet slotted.
+queue:
+  - {line: la_core_web, version: "3.10", repo: latincy-pipelines, status: blocked}
+  - {line: latin-bert, version: "2.0.0", repo: latincy-latinbert, status: blocked}
+  - {line: la-latincy-lookups, version: "1.2.4", repo: la-latincy-lookups, status: blocked}
+  - {line: la_senter, version: "3.9.4", repo: latincy-senter, status: blocked}
+  - {line: la_stanza_latincy, version: "0.4", repo: latincy-stanza, status: slated}
+  - {line: la_vectors, version: "3.10", repo: latincy-vectors, status: slated}
+  - {line: grc_core_latincy, version: "3.9", repo: latincy-grc-pipelines, status: blocked}
+  - {line: grc_senter, version: "3.9.0", repo: latincy-grc-senter, status: slated}
+  - {line: grc-latincy-lookups, version: "0.2.0", repo: grc-latincy-lookups, status: slated}
+  - {line: latincy-ext, version: "0.1", repo: latincy-ext, status: slated}
+  - {line: latincy-enclitic, version: "0.1", repo: latincy-enclitic, status: slated}

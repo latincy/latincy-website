@@ -1,0 +1,6 @@
+name = "LatinCy"
+license = "MIT"
+description = "Custom theme for the LatinCy project website"
+
+[author]
+  name = "Patrick J. Burns"

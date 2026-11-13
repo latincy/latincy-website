@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="hero">
+  <h1>{{ site.Title }}</h1>
+  <p class="tagline">{{ site.Params.tagline }}</p>
+  <p><a href="{{ "catalog/" | relURL }}" class="cta">Browse the Catalog</a></p>
+</section>
+
+{{ $albums := sort (where site.RegularPages "Section" "catalog") "Params.cat" "desc" }}
+<section class="home-section">
+  <h2 class="section-label">Latest releases</h2>
+  <div class="catalog-grid">
+    {{ range first 8 $albums }}{{ partial "tile.html" . }}{{ end }}
+  </div>
+</section>
+
+{{ $today := now.Format "2006-01-02" }}
+{{ $next := "" }}
+{{ range hugo.Data.schedule.slots }}{{ if and (not $next) (ge (time.Format "2006-01-02" .date) $today) }}{{ $next = . }}{{ end }}{{ end }}
+{{ with $next }}
+<section class="home-section">
+  <h2 class="section-label">Next release day · <time datetime="{{ time.Format "2006-01-02" .date }}">{{ time.Format "January 2, 2006" .date }}</time></h2>
+  {{ partial "schedule-items.html" .items }}
+  <p><a href="{{ "forthcoming/" | relURL }}">Forthcoming →</a></p>
+</section>
+{{ end }}
+{{ end }}

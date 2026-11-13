@@ -1,0 +1,5 @@
+<ul class="slate">
+  {{ range . }}
+  <li><code>{{ .line }} {{ .version }}</code> <span class="status status-{{ .status }}">{{ index hugo.Data.labels.status .status }}</span></li>
+  {{ end }}
+</ul>

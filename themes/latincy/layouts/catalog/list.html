@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="catalog">
+  <h1>Catalog</h1>
+  {{ $albums := sort .Pages "Params.cat" "desc" }}
+  {{ $langs := slice }}{{ $kinds := slice }}{{ $lines := slice }}
+  {{ range $albums }}
+    {{ $langs = $langs | append .Params.languages }}{{ $kinds = $kinds | append .Params.kinds }}{{ $lines = $lines | append .Params.line }}
+  {{ end }}
+  <form class="catalog-filters" hidden aria-label="Filter catalog">
+    <label>Language
+      <select name="language"><option value="">All</option>
+        {{ range sort (uniq $langs) }}<option value="{{ . }}">{{ index hugo.Data.labels.languages . }}</option>{{ end }}
+      </select></label>
+    <label>Kind
+      <select name="kind"><option value="">All</option>
+        {{ range sort (uniq $kinds) }}<option value="{{ . | urlize }}">{{ . }}</option>{{ end }}
+      </select></label>
+    <label>Line
+      <select name="line"><option value="">All</option>
+        {{ range sort (uniq $lines) }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+      </select></label>
+    <button type="button" class="view-toggle" aria-pressed="false">Table view</button>
+    <output class="catalog-count" aria-live="polite"></output>
+  </form>
+
+  <div class="catalog-grid" id="catalog-grid">
+    {{ range $albums }}{{ partial "tile.html" . }}{{ end }}
+  </div>
+
+  <table class="catalog-table" id="catalog-table">
+    <thead><tr><th scope="col">Cat. #</th><th scope="col">Release</th><th scope="col">Language</th><th scope="col">Kind</th><th scope="col">First pressing</th><th scope="col">Latest</th></tr></thead>
+    <tbody>
+      {{ range $albums }}{{ $p := .Params }}
+      <tr data-language="{{ delimit $p.languages " " }}" data-kind="{{ delimit $p.kinds " " | urlize }}" data-line="{{ $p.line }}">
+        <td class="catalog-number">{{ $p.catalog_number }}</td>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ range $p.languages }}{{ index hugo.Data.labels.languages . }}{{ end }}</td>
+        <td>{{ delimit $p.kinds ", " }}</td>
+        <td>{{ .Date.Format "2006-01-02" }}</td>
+        <td>{{ partial "latest-version.html" . }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</section>
+<script src="{{ "js/catalog.js" | relURL }}" defer></script>
+{{ end }}

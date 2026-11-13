@@ -1,0 +1,6 @@
+{{- $albums := slice -}}
+{{- range sort .Pages "Params.cat" "asc" -}}
+{{- $p := .Params -}}
+{{- $albums = $albums | append (dict "catalog_number" $p.catalog_number "title" .Title "url" .Permalink "date" (.Date.Format "2006-01-02") "line" $p.line "album" $p.album "languages" $p.languages "kinds" $p.kinds "status" $p.status "formats" $p.formats "huggingface" $p.huggingface "pypi" $p.pypi "github" $p.github "pressings" $p.pressings) -}}
+{{- end -}}
+{{- dict "title" site.Title "generated" (now.Format "2006-01-02T15:04:05Z07:00") "albums" $albums | jsonify (dict "indent" " ") -}}

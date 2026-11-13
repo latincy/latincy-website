@@ -1,0 +1,8 @@
+{{ define "main" }}
+<section>
+  <h1>{{ .Title }}</h1>
+  <ul class="term-list">
+    {{ range .Data.Terms.Alphabetical }}<li><a href="{{ .Page.RelPermalink }}">{{ with index hugo.Data.labels.languages .Page.LinkTitle }}{{ . }}{{ else }}{{ .Page.LinkTitle }}{{ end }}</a> <span class="count">{{ .Count }}</span></li>{{ end }}
+  </ul>
+</section>
+{{ end }}

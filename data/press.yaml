@@ -1,0 +1,6 @@
+# Papers about LatinCy releases — citation metadata only (from the arXiv API, 2026-10-01).
+papers:
+  - {authors: ["Bamman, David", "Burns, Patrick J."], title: "Latin BERT: A Contextual Language Model for Classical Philology", year: 2020, date: 2020-09-21, arxiv: "2009.10053"}
+  - {authors: ["Burns, Patrick J."], title: "LatinCy: Synthetic Trained Pipelines for Latin NLP", year: 2023, date: 2023-05-07, arxiv: "2305.04365"}
+  - {authors: ["Hudspeth, Marisa", "Burns, Patrick J.", "O'Connor, Brendan"], title: "Contextual morphologically-guided tokenization for Latin encoder models", year: 2025, date: 2025-11-12, arxiv: "2511.09709"}
+  - {authors: ["Hudspeth, Marisa", "Burns, Patrick J.", "O'Connor, Brendan"], title: "RespondeoQA: a Benchmark for Bilingual Latin-English Question Answering", year: 2026, date: 2026-04-22, arxiv: "2604.20738"}

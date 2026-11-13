@@ -1,0 +1,219 @@
+# Product lines ("artists") on the LatinCy label — apparatus only, no prose.
+#
+# Each line groups artifacts whose releases become catalog albums
+# (album key = line@MAJOR.x by default, line@MAJOR.MINOR for album_scheme: minor;
+#  a whole 0.x series = one album).
+#
+#   kind      display kind (spaCy Pipeline, Vectors, PyPI Package, …)
+#   language  la | grc
+#   formats   size/variant name -> HF repo id (multi-format lines)
+#   hf        single HF repo id
+#   pypi      PyPI project name
+#   github    owner/repo
+#   include   true | false | review   (review = Patrick decides, see proposal)
+#   manual    pressings evidenced outside HF/PyPI/GitHub-tags (each needs a source)
+
+lines:
+  la_core_web:
+    album_scheme: minor   # 3.x lockstep: one number per minor
+    kind: spaCy Pipeline
+    language: la
+    formats:
+      sm: latincy/la_core_web_sm
+      md: latincy/la_core_web_md
+      lg: latincy/la_core_web_lg
+      trf: latincy/la_core_web_trf
+    legacy_hf: [diyclassics/la_core_web_md]
+    github: diyclassics/la_core_web_lg
+    include: true
+    upload_pressings: false
+    manual:
+      - {version: "3.5.2", date: 2023-05-04, formats: [md], source: "https://huggingface.co/diyclassics/la_core_web_md/commit/e8c6ad4f9b92"}
+      - {version: "3.6", date: 2023-07-10, formats: [], evidence: training-repo, source: "https://github.com/diyclassics/la_core_web_lg/commit/89a5fda0b6"}
+      - {version: "3.7.5", date: 2024-07-03, formats: [], evidence: training-repo, source: "https://github.com/diyclassics/la_core_web_lg/commit/b8f7527e02"}
+      - {version: "3.7.6", date: 2024-07-25, formats: [], evidence: training-repo, source: "https://github.com/diyclassics/la_core_web_lg/commit/5519310878"}
+      - {version: "3.7.7", date: 2024-08-01, formats: [], evidence: training-repo, source: "https://github.com/diyclassics/la_core_web_lg/commit/7b0bfb35f2"}
+      - {version: "3.8.0", date: 2024-12-27, formats: [sm, md, lg, trf], evidence: inferred, source: "https://huggingface.co/latincy/la_senter/commit/2e923c1c38b1"}
+      - {version: "3.9.0", date: 2026-03-17, formats: [sm, md, lg], evidence: local-log, source: "latincy-pipelines/.claude/project_log/2026-03-17.md"}  # HF repos re-created 2026-03-25 (commit 121e030781c9); Patrick chose the log date 2026-10-01
+      - {version: "3.9.1", date: 2026-03-25, formats: [trf], source: "https://huggingface.co/latincy/la_core_web_trf/commit/9208ad6c7ac5"}
+
+  la_senter:
+    album_scheme: minor   # 3.x lockstep: one number per minor
+    kind: spaCy Model
+    language: la
+    hf: latincy/la_senter
+    legacy_hf: [diyclassics/la_senter]
+    include: true
+    manual:
+      - {version: null, album: "pre-3.8", date: 2022-12-23, formats: [], source: "https://huggingface.co/diyclassics/la_senter/commit/4dd7cbc2ee21"}
+      - {version: null, album: "pre-3.8", date: 2023-03-11, formats: [], source: "https://huggingface.co/diyclassics/la_senter/commit/374a3bf9ec9e"}
+      - {version: null, album: "pre-3.8", date: 2023-03-15, formats: [], source: "https://huggingface.co/diyclassics/la_senter/commit/f17aa6a0a07f"}
+
+  la_vectors_floret:
+    album_scheme: minor   # 3.x lockstep: one number per minor
+    kind: Vectors
+    language: la
+    formats:
+      md: latincy/la_vectors_floret_md
+      lg: latincy/la_vectors_floret_lg
+    legacy_hf: [diyclassics/la_vectors_floret_md]
+    include: true
+
+  la_vectors:
+    album_scheme: minor   # 3.x lockstep: one number per minor
+    kind: Vectors
+    language: la
+    hf: latincy/la_vectors
+    include: true
+
+  latincy-w2v:
+    kind: Vectors
+    language: la
+    hf: latincy/latincy-w2v
+    upload_pressings: true
+    album: ""           # unversioned
+    include: true
+
+  latin-bert:
+    kind: Transformer Model
+    language: la
+    hf: latincy/latin-bert
+    include: true
+    manual:
+      - {version: "1.2.0-rc1", date: 2026-07-15, formats: [], source: "https://huggingface.co/latincy/latin-bert/tree/v1.2.0-rc1"}
+
+  la_udpipe_latincy:
+    kind: UDPipe Model
+    language: la
+    hf: latincy/la_udpipe_latincy
+    upload_pressings: true
+    include: true
+
+  la_stanza_latincy:
+    kind: Stanza Model
+    language: la
+    hf: latincy/la_stanza_latincy
+    upload_pressings: true
+    include: true
+
+  la_flair_latincy:
+    kind: Flair Model
+    language: la
+    hf: latincy/la_flair_latincy
+    upload_pressings: true
+    include: true
+
+  latincy-preprocess:
+    kind: PyPI Package
+    language: la
+    pypi: latincy-preprocess
+    github: latincy/latincy-preprocess
+    include: true
+
+  latincy-readers:
+    kind: PyPI Package
+    language: la
+    pypi: latincy-readers
+    github: latincy/latincy-readers
+    include: true
+
+  la-latincy-lookups:
+    kind: PyPI Package
+    language: la
+    pypi: la-latincy-lookups
+    github: latincy/la-latincy-lookups
+    include: true
+
+  latincy-lexicon:
+    kind: PyPI Package
+    language: la
+    pypi: latincy-lexicon
+    github: latincy/latincy-lexicon
+    include: true
+
+  latincy-vocab:
+    kind: PyPI Package
+    language: la
+    pypi: latincy-vocab
+    github: latincy/latincy-vocab
+    include: true
+
+  grc_dep_web:
+    album_scheme: minor   # 3.x lockstep: one number per minor
+    kind: spaCy Pipeline
+    language: grc
+    formats:
+      sm: latincy/grc_dep_web_sm
+      md: latincy/grc_dep_web_md
+      lg: latincy/grc_dep_web_lg
+      trf: latincy/grc_dep_web_trf
+    include: true
+
+  latincy-diacritics:
+    kind: Transformer Model
+    language: grc
+    hf: latincy/latincy-diacritics
+    upload_pressings: true
+    include: true     # public (HF API private=false, checked 2026-10-01)
+
+  latincy-macronizer:
+    kind: Transformer Model
+    language: la
+    hf: latincy/latincy-macronizer
+    include: review   # created private 2026-03-11
+
+  # --- GitHub-only artifacts (inclusion is Patrick's call) ---
+  verba:
+    kind: Dataset
+    language: la
+    github: latincy/verba
+    include: true
+  latincy-ner:
+    album_scheme: minor   # 3.x lockstep: one number per minor
+    kind: Dataset
+    language: la
+    github: latincy/latincy-ner
+    include: true
+  latincy-ext:
+    kind: Software
+    language: la
+    github: latincy/latincy-ext
+    include: review
+  latincy-long-s:
+    kind: Software
+    language: la
+    github: diyclassics/latincy-long-s
+    include: review
+  latincy-guidelines:
+    kind: Documentation
+    language: la
+    github: latincy/latincy-guidelines
+    include: review
+  grc-latincy-lookups:
+    kind: Package
+    language: grc
+    github: latincy/grc-latincy-lookups
+    include: review
+
+  # --- CLTK-era precursors (2022–23) ---
+  la_dep_cltk:
+    kind: spaCy Pipeline
+    language: la
+    formats:
+      sm: diyclassics/la_dep_cltk_sm
+      md: diyclassics/la_dep_cltk_md
+    include: true
+    manual:
+      - {version: null, album: "", date: 2022-12-23, formats: [sm], source: "https://huggingface.co/diyclassics/la_dep_cltk_sm/commit/bbbcbdb674b8"}
+      - {version: null, album: "", date: 2023-03-14, formats: [sm], source: "https://huggingface.co/diyclassics/la_dep_cltk_sm/commit/95fb90bc63f3"}
+      - {version: null, album: "", date: 2023-03-16, formats: [md], source: "https://huggingface.co/diyclassics/la_dep_cltk_md/commit/882718649518"}
+  la_core_cltk:
+    kind: spaCy Pipeline
+    language: la
+    formats:
+      md: diyclassics/la_core_cltk_md
+    include: true
+    manual:
+      - {version: null, album: "", date: 2023-04-07, formats: [md], source: "https://huggingface.co/diyclassics/la_core_cltk_md/commit/91ddf1c6cc6c"}
+      - {version: null, album: "", date: 2023-04-15, formats: [md], source: "https://huggingface.co/diyclassics/la_core_cltk_md/commit/4bf6fe7b7c40"}
+      - {version: null, album: "", date: 2023-04-17, formats: [md], source: "https://huggingface.co/diyclassics/la_core_cltk_md/commit/db63fc743374"}

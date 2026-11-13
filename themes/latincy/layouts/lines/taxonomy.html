@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section>
+  <h1>Lines</h1>
+  <table class="catalog-table">
+    <thead><tr><th scope="col">Line</th><th scope="col">Language</th><th scope="col">Kind</th><th scope="col">Albums</th><th scope="col">First</th><th scope="col">Latest</th></tr></thead>
+    <tbody>
+      {{ range .Data.Terms.Alphabetical }}
+      {{ $pages := sort .Pages "Date" }}{{ $first := index $pages 0 }}{{ $last := index $pages (sub (len $pages) 1) }}
+      <tr>
+        <td><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a></td>
+        <td>{{ range $first.Params.languages }}{{ index hugo.Data.labels.languages . }}{{ end }}</td>
+        <td>{{ delimit $first.Params.kinds ", " }}</td>
+        <td>{{ .Count }}</td>
+        <td>{{ $first.Date.Format "2006-01-02" }}</td>
+        <td><a href="{{ $last.RelPermalink }}">{{ $last.Params.catalog_number }}</a></td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</section>
+{{ end }}

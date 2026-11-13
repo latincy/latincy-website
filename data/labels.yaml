@@ -1,0 +1,13 @@
+# Display labels for apparatus codes.
+languages: {la: Latin, grc: Ancient Greek}
+scores:   # display order
+  - [pos_acc, POS]
+  - [tag_acc, Tag]
+  - [morph_acc, Morph]
+  - [lemma_acc, Lemma]
+  - [dep_uas, UAS]
+  - [dep_las, LAS]
+  - [ents_f, NER F]
+  - [sents_f, Sents F]
+evidence: {training-repo: "dated from training repo", inferred: "date inferred", local-log: "dated from project log"}
+status: {released: Released, advance: Advance (prerelease), withdrawn: Withdrawn (yanked), slated: Slated, ready: Ready, shipped: Shipped, slipped: Slipped, blocked: Blocked}

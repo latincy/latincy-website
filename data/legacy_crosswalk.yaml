@@ -1,0 +1,32 @@
+# Pre-renumbering site entries (commit 1009460) -> album keys (line@album).
+# Used once by `catalog.py migrate` to carry covers and body text forward.
+# Body text has unknown provenance: it is carried verbatim into `legacy_notes`
+# (not rendered) until Patrick keeps, rewrites, or deletes it.
+# format: which size/variant of the album the old entry described (if any).
+
+LAT-001: {album: "la_senter@pre-3.8"}
+LAT-002: {album: "la_vectors_floret@3.5", format: md}
+LAT-003: {album: "la_vectors_floret@3.5", format: lg}
+LAT-004: {album: "la_core_web@3.5", format: sm}
+LAT-005: {album: "la_core_web@3.5", format: md}
+LAT-006: {album: "la_core_web@3.5", format: lg}
+LAT-007: {album: "la_core_web@3.5", format: trf}
+LAT-008: {album: "la_core_web@3.8", format: sm}
+LAT-009: {album: "la_core_web@3.8", format: md}
+LAT-010: {album: "la_core_web@3.8", format: lg}
+LAT-011: {album: "la_core_web@3.8", format: trf}
+LAT-012: {album: "latincy-w2v@"}
+LAT-013: {album: "la_senter@3.9"}
+LAT-014: {album: "latincy-preprocess@0.x"}
+LAT-015: {album: "latincy-readers@1.x"}
+LAT-016: {album: "la_core_web@3.9", format: sm}
+LAT-017: {album: "la_core_web@3.9", format: md}
+LAT-018: {album: "la_core_web@3.9", format: lg}
+LAT-019: {album: "la_core_web@3.9", format: trf}
+LAT-020: {album: "la_udpipe_latincy@0.x"}
+LAT-021: {album: "latin-bert@1.x"}
+LAT-022: {album: "la_flair_latincy@0.x"}
+LAT-023: {album: "la_stanza_latincy@0.x"}
+LAT-024: {album: "latincy-diacritics@0.x"}
+LAT-025: {album: "latincy-lexicon@0.x"}
+LAT-026: {album: "latincy-vocab@0.x"}

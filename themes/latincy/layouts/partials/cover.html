@@ -1,0 +1,11 @@
+{{/* Album cover: album cover > mosaic of format covers > placeholder. ctx = page, size = "tile" | "large" */}}
+{{ $p := .page.Params }}
+{{ $fcovers := slice }}
+{{ range $p.formats }}{{ with .cover }}{{ $fcovers = $fcovers | append . }}{{ end }}{{ end }}
+{{ if $p.cover }}
+  <img src="{{ $p.cover | relURL }}" alt="" loading="lazy">
+{{ else if $fcovers }}
+  <div class="cover-mosaic n{{ len $fcovers }}">{{ range $fcovers }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}</div>
+{{ else }}
+  <div class="catalog-cover-placeholder {{ if eq .size "large" }}release-cover-large{{ end }} lang-{{ index $p.languages 0 }}"><span class="catalog-number-large">{{ $p.catalog_number }}</span></div>
+{{ end }}

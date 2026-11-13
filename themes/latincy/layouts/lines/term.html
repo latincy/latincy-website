@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section>
+  <span class="catalog-number">Line</span>
+  <h1>{{ .Title }}</h1>
+  <h2 class="section-label">Discography</h2>
+  <table class="catalog-table">
+    <thead><tr><th scope="col">Cat. #</th><th scope="col">Album</th><th scope="col">First pressing</th><th scope="col">Pressings</th><th scope="col">Latest</th></tr></thead>
+    <tbody>
+      {{ range sort .Pages "Params.cat" }}
+      <tr>
+        <td class="catalog-number">{{ .Params.catalog_number }}</td>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ .Date.Format "2006-01-02" }}</td>
+        <td>{{ len .Params.pressings }}</td>
+        <td>{{ partial "latest-version.html" . }}</td>
+      </tr>
+      {{ end }}
+      {{ $line := .Title }}
+      {{ range where hugo.Data.unnumbered.albums "line" $line }}
+      <tr class="unnumbered">
+        <td class="catalog-number">—</td>
+        <td>{{ .title }} <span class="flag">{{ index hugo.Data.labels.status .status }}</span></td>
+        <td>{{ range first 1 .pressings }}{{ time.Format "2006-01-02" .date }}{{ end }}</td>
+        <td>{{ len .pressings }}</td>
+        <td>{{ range last 1 .pressings }}{{ with .source }}<a href="{{ . }}">{{ end }}{{ .version }}{{ if .source }}</a>{{ end }}{{ end }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</section>
+{{ end }}

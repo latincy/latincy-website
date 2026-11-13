@@ -1,0 +1,10 @@
+{{ $p := .Params }}
+<a href="{{ .RelPermalink }}" class="catalog-card" data-language="{{ delimit $p.languages " " }}" data-kind="{{ delimit $p.kinds " " | urlize }}" data-line="{{ $p.line }}">
+  <div class="catalog-cover">{{ partial "cover.html" (dict "page" . "size" "tile") }}</div>
+  <div class="catalog-info">
+    <span class="catalog-number">{{ $p.catalog_number }}</span>
+    <h2>{{ .Title }}</h2>
+    <span class="catalog-format">{{ delimit $p.kinds ", " }}</span>
+    <span class="catalog-date">{{ .Date.Format "2006-01-02" }}</span>
+  </div>
+</a>

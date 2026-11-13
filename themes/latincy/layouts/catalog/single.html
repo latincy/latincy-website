@@ -1,0 +1,85 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $labels := hugo.Data.labels }}
+<article class="release">
+  <div class="release-header">
+    <div class="release-cover">{{ partial "cover.html" (dict "page" . "size" "large") }}</div>
+    <div class="release-meta">
+      <span class="catalog-number">{{ $p.catalog_number }}</span>
+      <h1>{{ .Title }}</h1>
+      <dl class="release-details">
+        <dt>Line</dt><dd>{{ range .GetTerms "lines" }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</dd>
+        <dt>Language</dt><dd>{{ range $i, $l := $p.languages }}{{ if $i }}, {{ end }}{{ index $labels.languages $l }}{{ end }}</dd>
+        <dt>Kind</dt><dd>{{ range $i, $k := .GetTerms "kinds" }}{{ if $i }}, {{ end }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</dd>
+        <dt>First pressing</dt><dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></dd>
+        {{ with partial "latest-version.html" . }}<dt>Latest</dt><dd>{{ . }}</dd>{{ end }}
+        {{ if ne $p.status "released" }}<dt>Status</dt><dd>{{ index $labels.status $p.status }}</dd>{{ end }}
+        {{ with $p.huggingface }}<dt>Hugging Face</dt><dd><a href="https://huggingface.co/{{ . }}">{{ . }}</a></dd>{{ end }}
+        {{ with $p.pypi }}<dt>PyPI</dt><dd><a href="https://pypi.org/project/{{ . }}/">{{ . }}</a></dd>{{ end }}
+        {{ with $p.github }}<dt>GitHub</dt><dd><a href="https://github.com/{{ . }}">{{ . }}</a></dd>{{ end }}
+      </dl>
+    </div>
+  </div>
+
+  {{ with $p.formats }}
+  <section class="release-section">
+    <h2>Formats</h2>
+    <table class="catalog-table">
+      <thead><tr><th scope="col">Format</th><th scope="col">Hugging Face</th>{{ if (where . "install" "!=" nil) }}<th scope="col">Install</th>{{ end }}</tr></thead>
+      <tbody>
+        {{ range . }}
+        <tr><td>{{ .name }}</td><td>{{ with .huggingface }}<a href="https://huggingface.co/{{ . }}">{{ . }}</a>{{ end }}</td>{{ with .install }}<td><code>{{ . }}</code></td>{{ end }}</tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </section>
+  {{ end }}
+  {{ with $p.install }}<section class="release-section"><h2>Install</h2><pre><code>{{ . }}</code></pre></section>{{ end }}
+
+  <section class="release-section">
+    <h2>Pressings</h2>
+    <table class="catalog-table pressings">
+      <thead><tr><th scope="col">Version</th><th scope="col">Date</th><th scope="col">Formats</th><th scope="col">Notes</th><th scope="col">Evidence</th></tr></thead>
+      <tbody>
+        {{ range $p.pressings }}
+        <tr{{ with .flags }} class="{{ delimit . " " }}"{{ end }}>
+          <td>{{ .version | default "—" }}</td>
+          <td>{{ time.Format "2006-01-02" .date }}</td>
+          <td>{{ delimit (.formats | default slice) " / " }}</td>
+          <td>{{ range .flags }}<span class="flag flag-{{ . }}">{{ . }}</span> {{ end }}{{ with .evidence }}<span class="flag">{{ index $labels.evidence . }}</span>{{ end }}</td>
+          <td>{{ if hasPrefix .source "http" }}<a href="{{ .source }}">source</a>{{ else }}<span title="{{ .source }}">local record</span>{{ end }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </section>
+
+  {{ with $p.scores }}
+  {{ $fmts := slice }}{{ range $k, $_ := . }}{{ $fmts = $fmts | append $k }}{{ end }}
+  {{ $order := slice "model" "sm" "md" "lg" "trf" }}
+  {{ $cols := slice }}{{ range $order }}{{ if in $fmts . }}{{ $cols = $cols | append . }}{{ end }}{{ end }}
+  {{ $scores := . }}
+  <section class="release-section">
+    <h2>Scores</h2>
+    <table class="catalog-table scores">
+      <thead><tr><th scope="col">Metric</th>{{ range $cols }}<th scope="col"><a href="{{ (index $scores .).source }}">{{ . }}</a></th>{{ end }}</tr></thead>
+      <tbody>
+        {{ range $labels.scores }}{{ $key := index . 0 }}{{ $label := index . 1 }}
+        {{ $has := false }}{{ range $cols }}{{ if isset (index $scores .) $key }}{{ $has = true }}{{ end }}{{ end }}
+        {{ if $has }}<tr><th scope="row">{{ $label }}</th>{{ range $cols }}<td>{{ with index (index $scores .) $key }}{{ printf "%.2f" . }}{{ end }}</td>{{ end }}</tr>{{ end }}
+        {{ end }}
+      </tbody>
+    </table>
+  </section>
+  {{ end }}
+
+  {{ with .Content }}<section class="release-body">{{ . }}</section>{{ end }}
+
+  {{ $all := where site.RegularPages "Section" "catalog" }}
+  <nav class="release-nav" aria-label="Catalog sequence">
+    {{ $prev := where $all "Params.cat" (sub $p.cat 1) }}{{ $next := where $all "Params.cat" (add $p.cat 1) }}
+    {{ range first 1 $prev }}<a rel="prev" href="{{ .RelPermalink }}">← {{ .Params.catalog_number }} {{ .Title }}</a>{{ else }}<span></span>{{ end }}
+    {{ range first 1 $next }}<a rel="next" href="{{ .RelPermalink }}">{{ .Params.catalog_number }} {{ .Title }} →</a>{{ end }}
+  </nav>
+</article>
+{{ end }}

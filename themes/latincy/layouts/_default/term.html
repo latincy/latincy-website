@@ -1,0 +1,8 @@
+{{ define "main" }}
+<section>
+  <h1>{{ with index hugo.Data.labels.languages .Title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+  <div class="catalog-grid">
+    {{ range sort .Pages "Params.cat" "desc" }}{{ partial "tile.html" . }}{{ end }}
+  </div>
+</section>
+{{ end }}

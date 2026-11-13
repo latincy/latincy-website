@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section>
+  <h1>Press</h1>
+  <ol class="press-list" reversed>
+    {{ range sort hugo.Data.press.papers "date" "desc" }}
+    <li>{{ delimit .authors "; " }}. {{ .year }}. “{{ .title }}.” {{ with .arxiv }}<a href="https://arxiv.org/abs/{{ . }}">arXiv:{{ . }}</a>{{ end }}</li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}

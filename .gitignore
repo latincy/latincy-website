@@ -1,0 +1,20 @@
+# Claude development (local only)
+.claude/
+
+# Hugo build output
+public/
+resources/_gen/
+
+# OS
+.DS_Store
+
+# Editor
+*.swp
+*~
+
+# Hugo lock / scratch
+.hugo_build.lock
+scratch/
+
+# Internal notes (schedule blockers)
+private/
